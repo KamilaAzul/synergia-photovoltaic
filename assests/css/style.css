@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@300&family=Montserrat:wght@300&display=swap');
+
+* {
+    margin:0;
+    padding: o;
+    border: none;
+    
+}
+body{
+    font-family: Montserrat, sans-serif;
+    font-weight: 300;
+}
+
+/* synergia-logo-image */
+
+synergia-logo {
+
+weight: 100%;
+height: 200px;
+float: left;
+
+}
+
+/* solar-image */
+
+.solar-image{
+weight: 100%;
+height: 700px;
+background-image: url('../images/man-worker-firld-by-solar-panels.freepik.com.jpg');
+}
+
+
