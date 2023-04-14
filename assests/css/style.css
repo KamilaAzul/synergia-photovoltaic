@@ -4,11 +4,16 @@
     margin:0;
     padding: o;
     border: none;
+    background-color: aquamarine;
     
 }
 body{
     font-family: Montserrat, sans-serif;
     font-weight: 300;
+}
+.wrapper{
+    width:1170px;
+    margin:auto;
 }
 
 /* synergia-logo-image */
@@ -25,8 +30,12 @@ float: left;
 
 .solar-image{
 weight: 100%;
-height: 700px;
+height: 500px;
+size: 100vh;
 background-image: url('../images/man-worker-firld-by-solar-panels.freepik.com.jpg');
+background-size: cover;
+background-image: center, center;
+position: relative;
 }
 
 
