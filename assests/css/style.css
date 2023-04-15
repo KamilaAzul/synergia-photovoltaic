@@ -16,18 +16,19 @@ body{
 }
 
 /* synergia-logo-image */
-
 .synergia-logo {
 
-weight: 200px;
-height: 150px;
+width: 100px;
+height: 200px;
 float: right;
 position: absolute;
-top: 2px;
-right: 9px;
-display:flex;
+bottom: 345px;
+right: 120px;
+display: flex;
 }
-
+.synergia-logo .solar-image {
+line-height: 75px;
+}
 
 /* solar-image */
 
@@ -48,6 +49,7 @@ position: absolute;
 top: 8px;
 left: 60px;
 font-size: 40px;
+font-weight: bold;
 letter-spacing: 8px;
     
 }
@@ -64,5 +66,37 @@ letter-spacing: 8px;
     
     color: #333;
     border-bottom: 1px solid #3a3a3a;
+}
+
+/* Welcome-text */
+
+#Welcome-text, #Welcome-text h1{
+
+color:#190b0b;
+}
+
+#Welcome-text {
+    font-size: 100%;
+    font-family: Montserrat, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+
+    width: 1000px;
+    height: 90px;
+
+    padding-top: 40px;
+    padding-left: 10px;
+
+    text-align: center;
+    display: inline;
+
+    background-color: rgba(150, 157, 176, 0.4);
+
+    bottom: 300px;
+    left: 50px;
+    
+
+    position: absolute;
+
 }
 
