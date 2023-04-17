@@ -103,13 +103,19 @@ color:#190b0b;
 /* photovoltaic */
 
 #explanation {
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+
     background-color: rgba(230, 233, 242, 0.4);
-    width: 500px;
+    width: 600px;
     border-radius:25px;
     padding: 30px;
     margin: 20px;
     float: left;
-   
+
+    
 }
 
 #explanation p {
@@ -119,7 +125,7 @@ vertical-align: middle;}
 /* photovoltaic-system img */
 
 #photovoltaic-system{
-
+background-color: red;
 padding: 20px;
 padding-left: 770px;
 width: 100%;
@@ -135,9 +141,40 @@ gap: 50px;
 
 /* images-gallery */
 
-#images-gallery{
+#images-gallery {
+   
+
+    --gap: 20px;
+    --num-cols: 2;
+    --row-height: 300px;
+
+    box-sizing: border-box;
+    background: #f0f0f0;
+    padding: var(--gap);
+
     display: grid;
-    grid-gap: .5em;
+    grid-template-columns: repeat(var(--num-cols), 1fr);
+    grid-auto-rows: var(--row-height);
+    gap: var(--gap);
+    
+   
 }
 
+#images-gallery > img {
 
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+    box-shadow: 5px 10px #b1abab;
+}
+
+/* Anything under 1024px */
+
+@media screen and (max-width:1024px) {
+
+#images-gallery {
+    --num-cols: 2;
+    --row-height: 200px;
+
+}}
