@@ -1,4 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Hind:wght@300&family=Montserrat:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@300&family=Montserrat:wght@300&family=Noto+Serif&family=Nunito+Sans:wght@300&display=swap');
+
+
+
+
 
 * {
     margin: 0;
@@ -11,40 +16,57 @@ body{
     font-weight: 300;
 }
 /* header */
+header{
+    padding:10px 100px;
+    box-sizing: border-box;
+}
 nav{
 
     width: 100%;
     height: 110px;
-    line-height: 75px;
-    padding: 0px 100px;
-    position: fixed;
-    background: #f0f0f0;}
-
-.nav-area{
-    
-    list-style: none;
-    position: absolute;
-    top: 8px;
+    background: #f0f0f0;
+    border-top: 1px solid rgba(240, 240, 240,0.2);
+    border-bottom: 1px solid rgba(240, 240, 240,0.2);
+    position: sticky;
+    top:0;
     left: 60px;
     font-size: 40px;
-    font-weight: bold;
     letter-spacing: 8px;
-        
-    }
-    .nav-area li{
-        display: inline-block;
-    }
-    .nav-area li a {
-        color:black;
-        text-decoration: none;
-        padding: 5px, 20px;
-        font-size: 15px;
-    }
-    .nav-area li a:hover{
-        
-        color: #333;
+}
+
+nav ul{
+
+    display: flex;
+    margin: 0;
+    padding:0 20px;
+    float: left;
+}
+nav ul li{
+    list-style: none;
+
+}
+nav ul li a {
+    display: block;
+    padding:0 20px; 
+    color:black;
+    text-decoration: none;
+    padding: 5px, 20px;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+    line-height: 110px;
+}
+    
+nav ul li a:hover
+{
+
+        background: #b8abab;
         border-bottom: 1px solid #3a3a3a;
-    }
+}
+    
+
+    
+   
     
 /* logo-image */
 .logo {
@@ -73,83 +95,149 @@ nav{
 }
     
    
- 
-/* solar-image */
+/* home page image */
 
-.solar-image{
-
-height: 80vh;
-max-width: 100%;
-background-size: cover;
-background-image: center;
-position: relative;
-
+#mainImage {
+   width: 100%;
+   height: 110vh;
 }
+
+#hero-image {
+    height: 800px;
+    width: 100%;
+    background: url('../images/Freepick\ 2.jpg') no-repeat center center;
+    display: flex;
+    
+   
+}
+
 
 /* Welcome-text */
 
-#Welcome-text, #Welcome-text h1{
 
-color:#190b0b;
-}
-
-#Welcome-text {
+#welcome-text {
     font-size: 100%;
     font-family: Montserrat, sans-serif;
     text-transform: uppercase;
     letter-spacing: 10px;
+    position: absolute;
 
-    width: 1000px;
-    height: 90px;
+    width: 90%;
+    color:#f0f0f0;
+    height: 250px;
+    padding-top: 20px;
+    
 
-    padding-top: 40px;
-    padding-left: 10px;
+    top: 50%;
+    left: 50px;
 
     text-align: center;
     display: inline;
 
-    background-color: rgba(230, 233, 242, 0.4);
+    background-color: rgba(20, 28, 54, 0.4);}
 
-    bottom: 300px;
-    left: 50px;
+    #welcome-text h1{
+        font-size: 35px;
+    }
+
+    #welcome-text p{
+        margin: 10px 0 40px;
+        font-size: 20px;
+       
+
+    }
+    .buton{
+        display: inline-block;
+        text-decoration: none;
+        color:rgb(22, 204, 162);
+        border: 1px solid #fff;
+        padding: 15px 30px;
+        font-size: 18px;
+        font-weight: 800;
+        position: relative;
+        cursor: pointer;
+    }
+
+    .buton:hover{
+        background: rgba(231, 215, 39, 0.2) ;
+        transition: 1s;
+    }
+   
+    @media(max-width:700px){
+        #welcome-text h1{
+            font-size: 10px;   
+    }
+   
+    .nav-area ul li{
+        display: block;
+    }}
     
 
-    position: absolute;
+
+/* whatIs */
+
+#whatIs{
+    padding: 100px;
+    box-sizing: border-box;
+    height: auto;
+
+}
+#whatIs h1{
+    font-size: 3em;
+    margin:0;
+    padding: 0 0 20px;
+}
+#whatIs p{
+    font-size: 18px;
+    margin:0;
+    padding: 0;
+    text-align: justify;}
+
+    /* Section PhotoTwo */
+
+    #PhotoTwo {
+
+        height: 500px;
+        width: 100%;
+        background: url('../images/pixabay\ 1.jpg') no-repeat center center;
+        
+    }
+/* benefits */
+#Benefits{
+    padding:100px;
+    box-sizing: border-box;
+    height: auto;
 
 }
 
-/* photovoltaic */
+#Benefits h1{
+    font-size: 2.5em;
+    margin:0;
+    padding: 0 0 30px;
+}
+#Benefits p{
+    font-size: 18px;
+    margin:0;
+    padding: 0;
+    text-align: justify;
+}
 
-#explanation {
+    #Benefits li{
+        font-size: 18px;
+        margin:0;
+        padding: 0;
+        font-weight: 900;
+    }
 
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 50px;
-    background-color: rgba(230, 233, 242, 0.4);
-    width: 600px;
-    border-radius:25px;
-    padding: 30px;
-    margin: 20px;
-    float: left;
+    /* Photo number three */
 
+    #PhotoThree{
+        height: 800px;
+        width: 100%;
+        background: url('../images/pixabay\ 1.jpg') no-repeat center center;
+        
+    }
     
-}
-
-/* photovoltaic-system img */
-
-#photovoltaic-system{
-background-color: red;
-padding: 20px;
-padding-left: 770px;
-width: 100%;
-height: 400px;
-background-repeat: no-repeat;
-background-size: contain;
-display: flex;
-gap: 50px;
-}
-
-
 /* images-gallery */
 
 #images-gallery {
