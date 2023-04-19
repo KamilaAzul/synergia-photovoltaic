@@ -3,129 +3,88 @@
 * {
     margin: 0;
     padding: 0;
-    border: none;  
-    box-sizing: border-box;
+    box-sizing: border-box;  
+   
 }
 body{
     font-family: Montserrat, sans-serif;
     font-weight: 300;
 }
-.container{
-    
-    height: 100vw;
-    width: auto;
-    margin: 0;
-    display: grid;
-    background-color: whitesmoke;
-    grid-template-columns:[col-start]1fr [col-end]1fr;
-    grid-template-rows: 6% 30% 20% 30%;
-    grid-template-areas: 
-    "header header"
-    "photo photo"
-    "main-one main-two"
-    "main-three main-four"
-    "footer footer"
-    ;
-    grid-column-gap:10px;
-   
-  
-   
-}
-.hearder {
-    grid-area: header;
-    background-color: whitesmoke;
-    grid-template-columns: repeat(2, 1fr);
-    display: grid;
-    height: 90px;
+/* header */
+nav{
+
     width: 100%;
-}
-
-/* synergia-logo-image */
-.synergia-logo {
-
-    width: 100px;
-    height: 70px;
-    float: right;
-    bottom: 430px;
-    left: 610px;
-    top:12px;
-    display: flex;
+    height: 110px;
     line-height: 75px;
-    position: relative;
-    }
-  
-    
-
-.photo{
-
-    grid-area: photo;
-    background: url('../images/man-worker-firld-by-solar-panels.freepik.com.jpg') no-repeat center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    width: 100%;
-    overflow: hidden;}
- 
-
-.main-one{
-    grid-area: main-one;
-    background-color: aqua;
-}
-.main-two{
-    grid-area: main-two;
-    background-color: rgb(167, 228, 75);
-}
-.main-three{
-    grid-area: main-three;
-    background-color: rgb(227, 135, 23);
-}
-.main-four{
-    grid-area: main-four;
-}
-.footer{
-    grid-area: footer;
-}
-
-
-
-/* solar-image */
-
-.solar-image{
-height: 80vh;
-max-width: 100%;
-background-size: cover;
-background-image: center, center; 
-position: relative;
-
-}
+    padding: 0px 100px;
+    position: fixed;
+    background: #f0f0f0;}
 
 .nav-area{
     
-list-style: none;
-position: absolute;
-top: 8px;
-left: 60px;
-font-size: 40px;
-font-weight: bold;
-letter-spacing: 8px;
+    list-style: none;
+    position: absolute;
+    top: 8px;
+    left: 60px;
+    font-size: 40px;
+    font-weight: bold;
+    letter-spacing: 8px;
+        
+    }
+    .nav-area li{
+        display: inline-block;
+    }
+    .nav-area li a {
+        color:black;
+        text-decoration: none;
+        padding: 5px, 20px;
+        font-size: 15px;
+    }
+    .nav-area li a:hover{
+        
+        color: #333;
+        border-bottom: 1px solid #3a3a3a;
+    }
     
+/* logo-image */
+.logo {
+
+   float: right;
+   width: 100px;
+   height: 90px;
+   display: flex;
+   left: 610px;
+   top: 40px;
+   padding-top: 20px;
+   margin-right: 30px;
+   
+    }
+
+.body img{
+    position: relative;
+    padding: 50px 100px;
+    display: flex;
+    background-size: cover;
+    max-width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
 }
-.nav-area li{
-    display: inline-block;
-}
-.nav-area li a {
-    color:black;
-    text-decoration: none;
-    padding: 5px, 20px;
-    font-size: 15px;
-}
-.nav-area li a:hover{
     
-    color: #333;
-    border-bottom: 1px solid #3a3a3a;
+   
+ 
+/* solar-image */
+
+.solar-image{
+
+height: 80vh;
+max-width: 100%;
+background-size: cover;
+background-image: center;
+position: relative;
+
 }
-
-
 
 /* Welcome-text */
 
@@ -176,10 +135,6 @@ color:#190b0b;
     
 }
 
-#explanation p {
-text-align: justify;
-vertical-align: middle;}
-
 /* photovoltaic-system img */
 
 #photovoltaic-system{
@@ -195,18 +150,6 @@ gap: 50px;
 }
 
 
-.gallery-text{
-
-top: 8px;
-left: 60px;
-font-size: 18px;
-letter-spacing: 3px;
-text-align: justify;
-padding: 35px;
-background-color: rgba(230, 233, 242, 0.4);
-
-}
-
 /* images-gallery */
 
 #images-gallery {
@@ -215,7 +158,7 @@ background-color: rgba(230, 233, 242, 0.4);
     --gap: 30px;
     --num-cols: 2;
     --row-height: 300px;
-    top: 100px;
+    top: 1000px;
     box-sizing: border-box;
     background: #f0f0f0;
     padding: var(--gap);
@@ -303,6 +246,7 @@ footer {
     font-size: 40px;
     font-weight: 500;
     color:white;
+    text-align: center;
 }
 .contact .content p{
     font-size: 20px;
@@ -310,64 +254,20 @@ footer {
     color:white;
 } 
 
-.case {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 30px;
-    color:white;
-}
-
-.case .contactInfo{
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-
-}
-
-.case .contactInfo .box{
-    position: relative;
-    padding: 20px 0;
-    display: flex;
-}
-
-.case .contactInfo .box .icon{
-
-    min-width: 60px;
-    height: 60px;
-    background: #b1abab;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 50%;
-    font-size: 22px;
-}
-
-.case .contactInfo .box .text
-{
-    display: flex;
-    margin-left: 20px;
-    font-size: 16px;
-    flex-direction: column;
-}
-
-.case .contactInfo .box .text h3{
-    font-weight: 600;
-    color:cornflowerblue
-}
 .contactForm
 {
     width: 40%;
     padding: 40px;
     background:  rgba(230, 233, 242, 0.4);
     border-radius: 5px;
+    margin-top: 30px;
     
 
 }
 .contactForm h2{
     font-size: 30px;
     font-weight: 500;
+    text-align: center;
 }
 .contactForm .inputBox
 {
@@ -381,17 +281,35 @@ footer {
 
     width: 100%;
     padding: 5px 0;
-    font-size: 16px;
+    font-size: 20px;
     margin: 10px 0;
     border: none;
     outline: none;
     resize: none;
-
+    border-bottom: 2px solid #3a3a3a;
 }
 
-.contactForm .inputBox span{
+.contactForm .inputBox input[type="submit"]{
+
+    width: 30%;
+    background: rgb(66, 216, 186);
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 12px;
     
 }
+@media (max-width:991px)
 
+{.contact
+    {padding: 50px;
+}
 
+.content{
+    flex-direction: column;
+}
+
+.contactForm
+{width: 100%;}
+}
 
