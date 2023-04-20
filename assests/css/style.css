@@ -8,25 +8,19 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;  
-   
+  
 }
 body{
     font-family: Montserrat, sans-serif;
     font-weight: 300;
 }
-/* header */
-header{
-    padding:10px 100px;
-    box-sizing: border-box;
-}
+
 nav{
 
     width: 100%;
     height: 110px;
-    background: #f0f0f0;
-    border-top: 1px solid rgba(240, 240, 240,0.2);
-    border-bottom: 1px solid rgba(240, 240, 240,0.2);
+    background: rgb(208, 198, 198,0.8);
+    
     position: sticky;
     top:0;
     left: 60px;
@@ -43,6 +37,7 @@ nav ul{
 }
 nav ul li{
     list-style: none;
+    position: relative;
 
 }
 nav ul li a {
@@ -50,37 +45,68 @@ nav ul li a {
     padding:0 20px; 
     color:black;
     text-decoration: none;
-    padding: 5px, 20px;
     font-size: 15px;
     text-transform: uppercase;
     font-weight: bold;
     line-height: 110px;
+    transition: all 0.3;
 }
     
 nav ul li a:hover
 {
 
-        background: #b8abab;
-        border-bottom: 1px solid #3a3a3a;
+transition: all 0.3;
+font-size: 50%;
+        
 }
-    
 
-    
+/* dropdown_menu */
+
+.dropdown_menu {
+    display: none;
+}
+.dropdown_menu{
+
+    display: block;
+    position: absolute;
+    left:0;
+    background-color: azure;
+    padding: 0 14px;
+    max-height: 70px;
    
+}
+.dropdown_menu ul{
+    display: block;
+    position:absolute;
+    background-color: white;
+    padding: 10px;
+}
+.dropdown_menu ul li{
+    width: 150px;
+}
+
+nav ul li ul li a:hover{
+     background-color: aqua;
+     padding:2px 10px;
+
+     display: inline-block;
+     text-decoration: none;
+     padding: 15px 30px;
+     position: relative;
+     cursor: pointer;
+    
+}
     
 /* logo-image */
 .logo {
 
    float: right;
-   width: 100px;
+   width: 15%;
    height: 90px;
    display: flex;
-   left: 610px;
-   top: 40px;
-   padding-top: 20px;
-   margin-right: 30px;
-   
-    }
+   padding-top: 10px;
+   margin-right:50px;
+}
 
 .body img{
     position: relative;
@@ -163,16 +189,6 @@ nav ul li a:hover
         transition: 1s;
     }
    
-    @media(max-width:700px){
-        #welcome-text h1{
-            font-size: 10px;   
-    }
-   
-    .nav-area ul li{
-        display: block;
-    }}
-    
-
 
 /* whatIs */
 
@@ -191,15 +207,17 @@ nav ul li a:hover
     font-size: 18px;
     margin:0;
     padding: 0;
-    text-align: justify;}
+    text-align: justify;
+}
 
     /* Section PhotoTwo */
 
     #PhotoTwo {
 
-        height: 500px;
-        width: 100%;
-        background: url('../images/pixabay\ 1.jpg') no-repeat center center;
+        height: 800px;
+        width: auto;
+        display: flex;
+        padding-left: 6%;
         
     }
 /* benefits */
@@ -232,12 +250,64 @@ nav ul li a:hover
     /* Photo number three */
 
     #PhotoThree{
+
         height: 800px;
-        width: 100%;
-        background: url('../images/pixabay\ 1.jpg') no-repeat center center;
+        width: auto;
+        max-width: 1300px;
+        display: flex;
         
     }
     
+/* section costs */
+
+#costs{
+    padding:100px;
+    box-sizing: border-box;
+    height: auto;
+    
+
+}
+
+#costs h1{
+    font-size: 2.5em;
+    margin:0;
+    padding: 0 0 30px;
+    
+}
+#costs h2{
+    font-size: 1.5em;
+    margin:0;
+    padding: 0 0 30px;
+    text-align: justify;
+}
+#costs h3{
+    font-size: 1em;
+    margin:0;
+    padding: 0 0 30px;
+}
+#costs .ourCompany{
+   
+    font-size: 20px;
+    margin:0;
+    padding: 0 0 30px;
+    font-weight: 200;
+}
+
+
+#costs p{
+    font-size: 18px;
+    margin:0;
+    padding: 0;
+    text-align: justify;
+}
+
+    #costs li{
+    font-size: 18px;
+    margin:0;
+     padding: 0;
+    font-weight: 900;
+    }
+
 /* images-gallery */
 
 #images-gallery {
@@ -312,7 +382,7 @@ footer {
 /* Contact page */
 
 .contact{
-    position: relative;
+ 
     min-height: 100vh;
     padding: 50px 100px;
     display: flex;
@@ -384,9 +454,20 @@ footer {
     color: white;
     border: none;
     cursor: pointer;
-    padding: 12px;
+    padding: 12px;}
+
+.personal_info{
+
+    position: relative;
+    min-height: 20vh;
+    padding: 50px 100px;
+    display: flex;
+    flex-direction: row-reverse;
     
+    
+
 }
+    
 @media (max-width:991px)
 
 {.contact
