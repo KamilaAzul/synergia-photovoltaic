@@ -19,7 +19,7 @@ nav{
 
     width: 100%;
     height: 110px;
-    background: rgb(208, 198, 198,0.8);
+    background: rgb(208, 198, 198);
     
     position: sticky;
     top:0;
@@ -456,17 +456,47 @@ footer {
     cursor: pointer;
     padding: 12px;}
 
-.personal_info{
+/* Footer contact page */
 
-    position: relative;
-    min-height: 20vh;
-    padding: 50px 100px;
-    display: flex;
-    flex-direction: row-reverse;
-    
-    
-
+ #down{
+    height: 100px;
 }
+
+.personal_info{
+    background: #b1abab;
+    text-align: left;
+    width: 100%;
+    
+}
+
+.personal_info h3{
+
+    color: rgb(31, 113, 137);
+    font-size: 22px;
+}
+
+.personal_info h3 .InfoBox div{
+
+    display: flex;
+    display: inline;
+}
+
+.personal_info .InfoBox{
+
+
+    display: flex;
+    margin-top: 0;
+    margin-left: 40px;
+    padding-bottom: 40px;
+    padding-top: 40px;
+}
+
+.personal_info span {
+    font-size: 160%;
+    margin: auto;
+    padding: 10px 30px;
+    color: #3a3a3a;}
+
     
 @media (max-width:991px)
 
@@ -482,3 +512,14 @@ footer {
 {width: 100%;}
 }
 
+/* map */
+
+.map{
+    width: 500px;
+    height: auto;
+    display: flex;
+    justify-content: right;
+    padding-right: 5%;
+   
+
+}
