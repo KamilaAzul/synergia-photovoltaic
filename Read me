@@ -1,0 +1,134 @@
+Name: Synergia Photovoltaic
+The page Synergia Photovoltaic is made for people who are interested in installing photovoltaic panels, which are an ecological source of energy.
+It explains what is Photovoltaic installation, what are the benefits of having one, and what influences the final price of this kind of purchase. It shows the offer from the company, the gallery with examples of already made installations, and on the web page, there are contact details, the contact form, and the map.
+Existing Features
+Navigation Bar
+The navigation bar includes Logo, Home page, Gallery and Contact Us page. It is equal on all pages to allow easy navigation without the need to press the back button.
+It has a function "sticky" which allows seeing the navigation bat at all times and allows to move to a different part of the page without scrolling.
+Problems:
+It would be good to add an open dropdown menu in the Home button that would lead to searched section.
+
+
+What is a photovoltaic installation?
+In this section, you may find a description of what is photovoltaic installation.
+
+
+
+Benefits section
+In this section, you will find the benefits of installing photovoltaic panels.
+
+
+
+Costs section
+This section is explaining what influences the cost of installation as there is no one fixed price and the cost depends on many different factors.
+Gallery page
+The Gallery page includes photos of already-made installations.
+This section is valuable to the user as it can help them make their decisions of buying the installation and proves the reliability of the company.
+
+
+
+
+
+Contact us page
+This page will allow the user to get in contact with Synergia company.
+The user will be asked to submit their full name and email address.
+
+
+Problems:
+The user details are not coming to the email.
+
+
+
+
+
+The Footer
+The footer section includes contact details and links to the relevant social media sites for Synergia Photovoltaic. The links will open to a new tab to allow easy navigation for the user. The is a link to a map with a 
+The footer encourages users to keep connected via social media.
+
+
+
+
+
+Unfixed Bugs on a website:
+contact page:
+The user details are not coming to the email.
+main page:
+It would be good to add an open dropdown menu in the Home button that would lead to searched section.
+Responsives is not working on all pages: The codes added by me didn't work properly
+Credits
+Code institute; Loe running web page;
+https://www.w3schools.com/
+Link how to add a logo and style it:
+https://www.youtube.com/watch?v=Jkp103YhW7A
+How to organize galleries:
+https://www.youtube.com/watch?v=rnhoY5Cdmy0&t=580s
+
+
+Gallery photos: They are original photos from the owner of a Synergia company
+The main page and contact photos are taken from:
+Feepeak and Pixabay
+
+
+Validation of the page on https://validator.w3.org/
+
+
+Error: Bad value for attribute name on element input: Must not be empty.
+From line 49, column 2; to line 49, column 49
+putBox">↩ <input type="text" name="" required="requeired">↩<span
+Error: Bad value requeired for attribute required on element input.
+From line 49, column 2; to line 49, column 49
+putBox">↩ <input type="text" name="" required="requeired">↩<span
+Error: Bad value for attribute name on element input: Must not be empty.
+From line 53, column 1; to line 53, column 48
+nputBox">↩<input type="text" name="" required="requeired">↩<span
+Error: Bad value requeired for attribute required on element input.
+From line 53, column 1; to line 53, column 48
+nputBox">↩<input type="text" name="" required="requeired">↩<span
+Error: Bad value for attribute name on element input: Must not be empty.
+From line 57, column 1; to line 57, column 48
+nputBox">↩<input type="text" name="" required="requeired">↩<span
+Error: Bad value requeired for attribute required on element input.
+From line 57, column 1; to line 57, column 48
+nputBox">↩<input type="text" name="" required="requeired">↩<span
+Error: Bad value for attribute name on element input: Must not be empty.
+From line 61, column 5; to line 61, column 46
+Box">↩    <input type="submit" name="" value="Send">↩</div
+Error: End tag div seen, but there were open elements.
+From line 63, column 13; to line 63, column 18
+          </div>↩    
+Error: Unclosed element form.
+From line 46, column 9; to line 46, column 14
+>↩        <form>↩    
+Error: Stray end tag form.
+From line 64, column 9; to line 64, column 15
+>↩        </form>↩    <
+Error: Stray end tag div.
+From line 65, column 5; to line 65, column 10
+form>↩    </div>↩</div
+Error: Stray end tag div.
+From line 66, column 1; to line 66, column 6
+   </div>↩</div>↩</sec
+Error: Attribute clas not allowed on element div at this point.
+From line 75, column 5; to line 75, column 25
+ent">↩    <div clas="left_box">↩    
+ Attributes for element div:
+Global attributes
+Error: End tag footer seen, but there were open elements.
+From line 127, column 1; to line 127, column 9
+         ↩</footer>↩↩   
+Error: Unclosed element div.
+From line 74, column 1; to line 74, column 26
+↩<footer>↩<div class="main_content">↩    <
+
+
+
+
+Validation of the page on https://jigsaw.w3.org/
+
+There were found the following errors (3)
+
+URI : https://kamilaazul.github.io/synergia-photovoltaic/assests/css/style.css
+53	nav ul li a	0.3 is not a transition value : all 0.3
+59	nav ul li a:hover	0.3 is not a transition value : all 0.3
+346	.main_content h2	Value Error : font-weight 300px is not a font-weight value : 300px
+
