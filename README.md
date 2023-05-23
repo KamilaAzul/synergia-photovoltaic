@@ -1,108 +1,210 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+Name: Synergia Photovoltaic
+The page Synergia Photovoltaic is made for people who are interested in installing photovoltaic panels, which are an ecological source of energy.
+It explains what is Photovoltaic installation, what are the benefits of having one, and what influences the final price of this kind of purchase. It shows the offer from the company, the gallery with examples of already made installations, and on the web page, there are contact details, the contact form, and the map.
+Existing Features
+Navigation Bar
+The navigation bar includes Logo, Home page, Gallery and Contact Us page. It is equal on all pages to allow easy navigation without the need to press the back button.
+It has a function "sticky" which allows seeing the navigation bat at all times and allows to move to a different part of the page without scrolling.
 
-Welcome Kamila Matejczuk,
+What is a photovoltaic installation?
+In this section, you may find a description of what is photovoltaic installation.
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
 
-## Gitpod Reminders
+Benefits section
+In this section, you will find the benefits of installing photovoltaic panels.
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
 
-`python3 -m http.server`
+Costs section
+This section is explaining what influences the cost of installation as there is no one fixed price and the cost depends on many different factors.
+Gallery page
+The Gallery page includes photos of already-made installations.
+This section is valuable to the user as it can help them make their decisions of buying the installation and proves the reliability of the company.
 
-A blue button should appear to click: _Make Public_,
 
-Another blue button should appear to click: _Open Browser_.
+Contact us page
+This page will allow the user to get in contact with Synergia company.
+The user will be asked to submit their full name and email address.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
 
-A blue button should appear to click: _Make Public_,
 
-Another blue button should appear to click: _Open Browser_.
+The Footer
+The footer section includes contact details and links to the relevant social media sites for Synergia Photovoltaic. The links will open to a new tab to allow easy navigation for the user. The is a link to a map with a 
+The footer encourages users to keep connected via social media.
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
 
-To log into the Heroku toolbelt CLI:
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+Unfixed Bugs on a website:
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
 
-------
+Contact page:
+The user details are not coming to the email.
+Main page:
+It would be good to add an open dropdown menu in the Home button that would lead to searched section.
 
-## Release History
+Responsivnes is not working on all pages: The codes added by me didn't worked properly
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+Used 
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+Code intitute; Loe running web page;
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+https://www.w3schools.com/
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+Link how to add a logo and style it
+https://www.youtube.com/watch?v=Jkp103YhW7A
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+How to organize galleries
+https://www.youtube.com/watch?v=rnhoY5Cdmy0&t=580s
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+Gallery photos: They are original photos from the owner of a Synergia company
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+Main page and contact photos are taken from:
+Feepeak and Pixabay
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+# **_Funny Dogs Memory Game_**
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+The Funny Dogs Memory Game is a simple matching cards game in which all the cards are flipped backside on a surface. 
+There are 8 cards that have the same images, but each card is placed randomly, and the user's mission is to find them. It is possible to flip up with only two cards over each turn. 
+The game doesn't have a time limit to find the pairs of cards.
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+Due to the low level of difficulty, the game is intended for younger users,to entertain and at the same time improve memory; however adults can also play it. 
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+Throughout the creation of this game, I was using three HTML ( index.html, welcome.html, instruction.html) two CSS files (game.css, style.css), and one java.js file.
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+# Contents
 
-------
+* [**User Experience UX**](<#user-experience-ux>)
+    * [Site Structure](<#site-structure>)
+    * [Design Choices](<#design-choices>)
+    * [Typography](<#typography>)
+    * [Colour Scheme](<#colour-scheme>)
 
-## FAQ about the uptime script
+* [**Features**](<#features>)
+   * [Welcome Page](<#welcome-page>)
+   * [Instruction Page](<#instruction-page>)
+   * [Memory Game Page](<#memory-game-page>)
+* [**Technologies Used**](<#technologies-used>)
+* [**Testing**](<#testing>)
+* [**Deployment**](<#deployment>)
+* [**Credits**](<#credits>)
+    * [**Content**](<#content>)
+    * [**Media**](<#media>)
+*  [**Acknowledgements**](<#acknowledgements>)
+        
+# User Experience (UX)
 
-**Why have you added this script?**
+## Site Structure
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
+The Synergy website contains four pages. 
+The home page is the default loading page, gallery, about us and contact pages are all accessible primarily from the navigation menu. 
 
-**How will this affect me?**
+[Back to top](<#contents>)
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
+## User Stories
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
+- As a user I want to be able to navigate through the whole site smoothly.
+- As a user I want to understand the purpose of the site upon loading it.
+- As a user I want to understand what the photovoltaic installation is, what are the cost's, etc.
+- As a user I want to see examples of already done installations.
+- As a user I want to know more about the Synergia company.
+- As a user I want to connect with the company on social media.
+- As a user I want to be able to contact the Synergia for more information.
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
 
-**So….?**
+[Back to top](<#contents>)
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
+## Design-choices
+ * ### Typography
+      * The fonts chosen were 'Ribeye'.
+ * ### Colour Scheme
+      The color scheme chosen for the project is warm colors in shades of brown, beige, and cream.
 
-**Can I opt out?**
+   ![Alt text](images/Palette.png)   
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
+[Back to top](<#contents>)
 
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
+## Existing Features  
+# Features
 
-**Anything more?**
+The Synergy site is projected to be welcoming and easy to use. It contains a navigation bar and a contact form. The aim is to invite the user to get to know the page.
 
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
+## Existing Features  
+  * ### Navigation Menu
 
----
+    * At the top of all the pages the user can find a fully responsive navigation menu, which had links to all the pages of the site to enable ease of navigation on the page.
+    * The logo is clickable with a link back to the home page.
 
-Happy coding!
+  * ### About-Us
+    * The About Us section tells the user more about the company.
+    * The picture of the owner and getting to know more about him can bring confidence that the project will be taken care of by a small family business.
+
+* ### Footer
+    
+    * Contains social media links. To enhance the UX the links open in other tabs.
+    * The social media links will help the user with their research about the company and will also encourage them to connect with it.
+ 
+    * To help the user with navigation on all devices a 'scroll to the top' arrow was added. It sticks to the bottom left of the screen at all times to give the user a quick and unobstructed way to the navigation bar. The arrow is semi-transparent with a light/dark contrasting border for use against all background colors.
+  
+   * ### Gallery
+
+      * Located on the second page,  intended to show to the user already finished projects.
+      * The presented work is showing the competence of the company  and bring the feeling of confidence that 
+
+    * The projects page give the user an idea of the recent projects that have been worked on. It also shows a number of different wood 
+
+* ### Contact Us
+
+    * This section  It has a map , address, phone number and email address details.
+    * In case the user would like to contact irectly there is an e-mail link icon. It opens the user's default email provider with an email addressed to The Synergy.
+    * There is a form that the user can choose to fill in. It has 5 input fields, name, email, address, callback and a textarea. 
+
+
+## Technologies Used
+* `HTML` provides the content and structure for the website.
+* `CSS` provides the styling.
+* `JavaScript` to create dynamically updating content.
+* [Gitpod](https://www.gitpod.io/#get-started) - used to deploy the website.
+* [Github](https://github.com/) - used to host and edit the website.
+
+[Back to top](<#contents>)
+
+## Testing
+
+
+Please refer to [**_here_**](TESTING.md) for more information on testing.
+
+[Back to top](<#contents>)
+
+
+## Deployment
+
+The site was deployed to GitHub page.
+
+[Back to top](<#contents>)
+
+## Credits
+### Content
+
+* The font came from [Google Fonts](https://fonts.google.com/).
+* The code for organizing the Memory Game Page and styling was inspired by an example on  [YouTube tutorial](https://www.youtube.com/watch?v=6ohVH0hQlD8).
+* The Javascript code for the Game Page was inspired by an example on  [YouTube tutorial](https://marina-ferreira.github.io/tutorials/js/memory-game/).
+* The Javascript code for *the shuffle cards function* of the Memory Game was inspired by an example on  [YouTube tutorial](https://www.youtube.com/watch?v=1G6MwIy-7Yc).
+* The inspiration for the Readme file came from this repository on [GitHub](https://github.com/EwanColquhoun/wawaswoods/blob/master/README.md).
+
+
+### Media
+* The photos for the front cards came from [Creative Fabrica](https://www.creativefabrica.com/)
+* The photos for the back cards and background comes from [Feepick](https://pl.freepik.com/)
+
+[Back to top](<#contents>)
+
+## Acknowledgements
+
+The website was completed as a Portfolio Project 2 JavaScript Essentials Project made for the Full Stack Software Developer (e-Commerce) Diploma at the [Code Institute](https://codeinstitute.net/). 
+
+I would like to thank my mentor [Precious Ijege](https://www.linkedin.com/in/precious-ijege-908a00168/), the Slack community, and all at the Code Institute for their help and support.
+
+[Back to top](<#contents>)
