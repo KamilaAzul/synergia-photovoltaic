@@ -1,6 +1,5 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Hind:wght@300&family=Montserrat:wght@300&family=Noto+Serif&family=Nunito+Sans:wght@300&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@600&family=Erica+One&family=Montserrat&display=swap');
 
 
 
@@ -13,26 +12,49 @@
 
 body{
     font-family: Montserrat, sans-serif;
-    font-weight: 300;
-}
+    scroll-behavior: smooth;
+    margin: auto;
+    max-width: 2000px;}
 
-nav{
+html{
+    scroll-behavior: smooth;}
 
+
+header{
     width: 100%;
-    height: 110px;
-    background: rgb(208, 198, 198);
+    height: 120px;
+    background:#D1D4D9;
     
-    position: sticky;
+   
+}
+    #head{
+    width: 100%;
+    height: 120px;
+    box-shadow: 8px 8px 10px 0 rgba(33, 51, 44, 0.4);
+    position: relative;
+        
+    }
+/* logo-image */
+.logo{
+        float: right;
+        width: 15%;
+        height: 90px;
+        padding-top: 10px;
+        margin-right:50px;
+        cursor: pointer; 
+     }
+/* Navigation area and logo*/
+
+#nav-area{
+
     top:0;
-    left: 60px;
-    font-size: 40px;
-    letter-spacing: 8px;
+    float: left;    
+    letter-spacing: 3px;
 }
 
 nav ul{
 
     display: flex;
-    margin: 0;
     padding:0 20px;
     float: left;
 }
@@ -43,88 +65,52 @@ nav ul li{
 }
 nav ul li a {
     display: block;
-    padding:0 20px; 
-    color:black;
+    padding:0 30px; 
+    color:rgb(0, 0, 0);
     text-decoration: none;
-    font-size: 15px;
-    text-transform: uppercase;
-    font-weight: bold;
+    font-size: 25px;
     line-height: 110px;
-    transition: all 0.3;
+    transition: scale 0.3 ease;
 }
     
 nav ul li a:hover
 {
 
-transition: all 0.3;
-font-size: 50%;
+scale: 1.05;
+font-weight: bold;
+color: #08b458;
+text-shadow: 1px 0 #181111;
         
 }
 
-    
-/* logo-image */
-.logo {
-
-   float: right;
-   width: 15%;
-   height: 90px;
-   display: flex;
-   padding-top: 10px;
-   margin-right:50px;
-}
-
-.body img{
+/* hero image */
+#mainImage{
     position: relative;
-    padding: 50px 100px;
-    display: flex;
-    background-size: cover;
-    max-width: 100%;
-    height: 100vh;
-    background-size: cover;
-    background-position: center;
-    position: absolute;
 }
-    
-   
-/* home page image */
-
-#mainImage {
-   width: 100%;
-   height: 110vh;
-}
-
 #hero-image {
-    height: 800px;
+    height: 600px;
     width: 100%;
     background: url('../images/Freepick\ 2.jpg') no-repeat center center;
     display: flex;
-    
-   
 }
-
-
-/* Welcome-text */
-
+/*Text on the hero photo*/
 
 #welcome-text {
+    
     font-size: 100%;
     font-family: Montserrat, sans-serif;
     text-transform: uppercase;
     letter-spacing: 10px;
     position: absolute;
-
     width: 90%;
     color:#f0f0f0;
     height: 250px;
     padding-top: 20px;
-    
-
-    top: 50%;
-    left: 50px;
-
+    top: 20%;
+    left: 5%;
+    right:5%;
     text-align: center;
     display: inline;
-
     background-color: rgba(20, 28, 54, 0.4);}
 
     #welcome-text h1{
@@ -134,9 +120,9 @@ font-size: 50%;
     #welcome-text p{
         margin: 10px 0 40px;
         font-size: 20px;
-       
 
     }
+    /*Contact button on the hero photo*/
     .buton{
         display: inline-block;
         text-decoration: none;
@@ -153,145 +139,75 @@ font-size: 50%;
         background: rgba(231, 215, 39, 0.2) ;
         transition: 1s;
     }
+
+/* About company section intro*/
+
+#rows{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+.description{
    
-
-/* whatIs */
-
-#whatIs{
-    padding: 100px;
+    flex-basis: 60% 40%;
+    margin-bottom: 2%;
+    padding: 20px 13px;
     box-sizing: border-box;
-    height: auto;
-
-}
-#whatIs h1{
-    font-size: 3em;
-    margin:0;
-    padding: 0 0 20px;
-}
-#whatIs p{
-    font-size: 18px;
-    margin:0;
-    padding: 0;
-    text-align: justify;
-}
-
-    /* Section PhotoTwo */
-
-    #PhotoTwo {
-
-        height: 800px;
-        width: auto;
-        display: flex;
-        padding-left: 6%;
-        
     }
-/* benefits */
-#Benefits{
-    padding:100px;
-    box-sizing: border-box;
-    height: auto;
-
-}
-
-#Benefits h1{
-    font-size: 2.5em;
-    margin:0;
-    padding: 0 0 30px;
-}
-#Benefits p{
-    font-size: 18px;
-    margin:0;
-    padding: 0;
-    text-align: justify;
-}
-
-    #Benefits li{
-        font-size: 18px;
-        margin:0;
-        padding: 0;
-        font-weight: 900;
-    }
-
-    /* Photo number three */
-
-    #PhotoThree{
-
-        height: 800px;
-        width: auto;
-        max-width: 1300px;
-        display: flex;
-        
-    }
-    
-/* section costs */
-
-#costs{
-    padding:100px;
-    box-sizing: border-box;
-    height: auto;
-    
-
-}
-
-#costs h1{
-    font-size: 2.5em;
-    margin:0;
-    padding: 0 0 30px;
-    
-}
-#costs h2{
-    font-size: 1.5em;
-    margin:0;
-    padding: 0 0 30px;
-    text-align: justify;
-}
-#costs h3{
-    font-size: 1em;
-    margin:0;
-    padding: 0 0 30px;
-}
-#costs .ourCompany{
+   #about-company h2{
+    font-size: 40px;
+    width: 80%;
+    padding-top: 40px;
+    margin: auto;
+    align-items: center;
+    padding-bottom: 10px;
+    text-align: center;
+    color: rgba(26, 27, 26, 0.7)
+   }
    
+   /*About us section text*/
+   #about-text p {
+    padding-left: 80px;
+    padding-top: 5px;
     font-size: 20px;
-    margin:0;
-    padding: 0 0 30px;
-    font-weight: 200;
-}
-
-
-#costs p{
-    font-size: 18px;
-    margin:0;
-    padding: 0;
+    max-width: 98%;
     text-align: justify;
+    color: rgba(37, 46, 42, 0.7)
 }
 
-    #costs li{
-    font-size: 18px;
-    margin:0;
-     padding: 0;
-    font-weight: 900;
+/*About us section text*/
+   #owner-image {
+    padding-top:10px;
+    padding-bottom: 20px;
+    overflow: hidden;
+    height: 100%;
+    }
+    #owner-image img {      
+    max-width: 95%;
+    max-height: 100%;
+    padding-top: 15px;
+    border-radius: 30%;
+    box-shadow: 0px 20px 5px rgb(0 0 0 / 0.2);
     }
 
 /* images-gallery */
 
 #images-gallery {
-   
 
     --gap: 30px;
     --num-cols: 2;
     --row-height: 300px;
     top: 1000px;
+    margin-bottom: 30px;
+    margin-top: 20px;
     box-sizing: border-box;
-    background: #f0f0f0;
     padding: var(--gap);
-
     display: grid;
     grid-template-columns: repeat(var(--num-cols), 1fr);
     grid-auto-rows: var(--row-height);
     gap: var(--gap);
-    
-   
 }
 
 #images-gallery > img {
@@ -301,61 +217,76 @@ font-size: 50%;
     object-fit: cover;
     border-radius: 5px;
     box-shadow: 5px 10px #b1abab;
+    box-shadow: 
+    8px 8px 12px 0 rgba(33, 51, 44, 0.7),
+    -8px -8px 12px 0 rgba(245, 245, 245, 0.6);
+}
+
+/* footer */
+
+.social_network {
+    text-align: center;
+    background-color:  rgb(97, 132, 174);
+}
+
+.social_network > li {
+    display: inline;
+
+}
+
+.social_network i {
+    font-size: 30px;
+    margin: 10px;
+    padding: 20px;
+    color: #2c2222;
+    }
+
+.social_network h3{
+
+    padding-bottom: 30px;
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Caveat', cursive;
+    color: #2c2222;
+
+}
+
+#up-arrow #arrow{
+    color: rgba(35, 50, 44, 0.7);
+    display: inline-block;
+    padding-top: 5px;
+    height: 50px;
+    width: 50px;
+    left: 20px;
+    bottom: 30px;
+    position: fixed;
+    border-radius: 50%;
+    border:#D1D4D9;
+    background-color: #D1D4D9;
+    z-index: 9;
+}
+
+/*scroll arrow idea taken from: https://www.youtube.com/watch?v=HP3ZSd3ko5Y*/
+#arrow{
+
+    font-size: 40px;
+    text-align: center;
 }
 
 /* Anything under 1024px */
 
 @media screen and (max-width:1024px) {
 
+#rows{
+    flex-direction: column;
+
+}
 #images-gallery {
     --num-cols: 2;
     --row-height: 200px;
 
 }}
 
-/* footer */
-
-footer{
-
-
-width: 100%;
-background: rgb(208, 198, 198);
-height: 450px;
-text-align: left;
-
-}
-
-.main_content{
-  padding-left: 20px;  
-  display: flex;
-  justify-content: space-between;
-  text-align: center;
-}
-.left_box{
-
-    width:80%;
-    margin: auto;
-    text-align: center;
-    padding-top: 20px;
-    
-
-}
-.main_content h2{
-
-    font-size: 25px;
-    font-weight: 300px;
-    padding-top: 20px;
-    color: #0caaa5;
-}
-
-.main_content p{
- font-size: 20px;
- font-weight: 300;
- line-height: 22px;
- padding: 10px;
- text-align: justify;
-
-}
 
 
 /* Contact page */
@@ -370,6 +301,7 @@ text-align: left;
     flex-direction: column;
     background-image: url('../images/pixabay\ 4.jpg');
     background-size: cover;
+    
 }
 
 .contact .content{
@@ -436,11 +368,64 @@ text-align: left;
     cursor: pointer;
     padding: 12px;}
 
+@media screen and (max-width: 1200px){
+/*Text on the hero photo*/
+    #welcome-text {
+        padding-top: 30px; 
+        top: 30%;  
+        height: 400px; 
+        }
+/* About company section intro*/
+        #about-text p {
+            flex-direction: column;
+            width: 100%;
+        }
+
+}
 
 
-@media (max-width:991px)
+@media (max-width:991px){
+    #welcome-text {
+    padding-top: 30px; 
+    top: 30%;  
+    height: 400px; 
+    }
+    #welcome-text h1{
+    font-size: 25px;
+    }
 
-{.contact
+    #welcome-text p{
+    margin: 10px 0 40px;
+    font-size: 15px;}
+
+    .buton{
+    font-size: 14px;
+    width:  400px; 
+    }
+
+#nav-area{
+    padding:0 30px;
+    float: left;
+    clear: both;
+    letter-spacing: initial;
+    line-height: initial;
+}
+    
+nav ul li a  {
+    margin: 0 10px;
+    padding: 0px 20px;
+    font-size: 15px;
+    background-color: #0caaa5;
+}
+ .logo{
+    float: right;
+    width: 10%;
+    height: 60px;
+    padding-top: 10px;
+
+ }
+
+.contact
     {padding: 50px;
 }
 
@@ -451,3 +436,18 @@ text-align: left;
 .contactForm
 {width: 100%;}
 }
+
+@media (max-width:500px){
+
+    #nav-area{
+        float: left;
+        clear: both;
+        letter-spacing: 3px;
+        line-height: initial;
+    }
+        
+    
+    nav ul li a  {
+        font-size: 10px;
+       }
+    }
