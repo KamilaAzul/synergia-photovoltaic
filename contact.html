@@ -17,22 +17,31 @@
 </head>
 
 <body>
-    <nav>
-        <img src="assests/images/SYNERGIA_LOGO_BIG.png" alt="synergia-logo" class="logo">
-        <div class="nav-links">
-        <ul class="nav-area">
-            <li>
-            <a href="index.html" class="active">Home</a></li>
-            <li>
-                <a href="gallery.html">Gallery</a>
-            </li>
-            <li>
-                <a href="contact.html">Contact us</a>
-            </li>
-        </ul>
-    </div>
-       
-    </nav>
+    <span id="totop"></span>
+    <header>
+        <div id="head">
+            <a href="index.html" aria-label="Go to the home page">
+            <img src="assests/images/SYNERGIA_LOGO_BIG.png" alt="synergia-logo" class="logo">
+            </a>
+            <!--Navigation area-->
+        <nav>
+            <ul id="nav-area">
+                <li>
+                    <a href="index.html" id="active" class="navlink" aria-label="Go to the Home page ">Home</a>
+                </li>
+                <li>
+                <a href="photovaltaic.html" class="navlink" aria-label="Go to the Projects page">Photovoltaic-Installations</a>
+                </li>
+                <li>
+                    <a href="gallery.html" class="navlink" aria-label="Go to the Projects page">Gallery</a>
+                    </li>
+                <li>
+                    <a href="contact.html" class="navlink" aria-label="Go to the Contact page">Contact</a>
+                </li>
+            </ul>
+        </nav>
+            </div>
+    </header>
     
 <section class="contact">
 <div class="content">
@@ -46,19 +55,21 @@
         <form>
             <h2>Send Message</h2>
 <div class="inputBox">
- <input type="text" name="" required="requeired">
+ <input type="text" name="fnam" required="requeired">
 <span>First Name</span>
 </div>
 <div class="inputBox">
-<input type="text" name="" required="requeired">
+<input type="text" name="lnam" required="requeired">
 <span>Last Name</span>
 </div>
 <div class="inputBox">
-<input type="text" name="" required="requeired">
+<input type="text" name="email" required="requeired">
 <span>Email</span>
 </div>
 <div class="inputBox">
-    <input type="submit" name="" value="Send">
+
+    <form action="kamila.mate82@gmail.com" method="post" enctype="text/plain">
+    <input type="submit" name="send" value="Send"></form>
 </div>
             </div>
         </form>
@@ -66,44 +77,13 @@
 </div>
 </section>
 
-
-
-
-
-<footer>
-<div class="main_content">
-    <div clas="left_box">
-        <h2>About us</h2>
-        <br>
-        <div class="content">
-            <p>Synergia is a small family company working since 2021. We create photovoltaic systems for households and companies.
-                We will take you through the whole process of installation from system design, to delivery of devices, to their installation and connection to the network.</p>
-        </div>
-        <br>
-        <div class="social">
-        <a href="https://facebook.com" target="_blank" rel="noopener"
-        aria-label="Visit our Facebook page (opens in a new tab)"><i class="fab fa-facebook"></i></a>
-        <span><i class="fa fa-map-marker" aria-hidden="true"></i></span>
-
-        <a href="https://twitter.com" target="_blank" rel="noopener"
-        aria-label="Visit our Twitter page (opens in a new tab)"><i class="fab fa-twitter-square"></i></a>
-
-        <a href="https://youtube.com" target="_blank" rel="noopener"
-        aria-label="Visit our YouTube page (opens in a new tab)"><i class="fab fa-youtube-square"></i></a>
-
-        <a href="https://instagram.com" target="_blank" rel="noopener"
-                        aria-label="Visit our Instagram page (opens in a new tab)"><i class="fab fa-instagram"></i></a>
-    </div>
-    <br>
-
-
 <div class="center_box">
     <h2>Address</h2>
     <br>
     <div class="content">
         <div class="place">
     <span><i class="fa fa-map-marker" aria-hidden="true"></i></span>
-    <span class="text">Kolano 74,<br>21-205 Kolano,<br>Poland</span>
+    <span class="text" >Kolano 74,<br>21-205 Kolano,<br>Poland</span>
         </div>
 
         <div class="phone">
@@ -115,16 +95,32 @@
          <div class="email">
     <span><i class="fa fa-envelope" aria-hidden="true"></i></span>
     <span class="text"><a href="mailto:sebastian.mat@gmail.com">sebastian.mat@gmail.com</a></span>
+    
         </div>
     </div>
 </div>
 </div>
 <div class="map">
      <div class="map_location"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2474.8609610619396!2d23.039265!3d51.662382!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47222c2ab8955a91%3A0xa4690218d599cbf1!2sKolano%2074%2C%2021-205%20Kolano%2C%20Polska!5e0!3m2!1spl!2sde!4v1681995899240!5m2!1spl!2sde" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
-    </div>
+    </div>  
+    
+    <!--Footer section-->
+    <footer>
+        <div class="footer">
+            <a href="#totop" id="up-arrow" aria-label="Scroll to top"><i id="arrow" class="fas fa-arrow-up"></i></a>
 
-           
-</footer>
+            <ul class="social_network">
+        <li><a href="https://facebook.com" target="_blank" rel="noopener" aria-label="Visit our Facebook page (opens in a new tab)"><i class="fab fa-facebook-f socials"></i></a></li>
+
+        <li><a href="https://twitter.com" target="_blank" rel="noopener"
+            aria-label="Visit our Twitter page (opens in a new tab)"><i class="fa-brands fa-twitter"></i></a></li>
+
+        <li><a href="https://instagram.com" target="_blank" rel="noopener" aria-label="Visit our Instagram page (opens in a new tab")><i class="fab fa-instagram"></i></a></li>
+        <h3>Copyright Synergia 2019</h3>
+                    </ul>    
+    </div>
+    </footer>
+
 
      
 
