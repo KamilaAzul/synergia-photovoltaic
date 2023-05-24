@@ -1,4 +1,3 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@600&family=Erica+One&family=Montserrat&display=swap');
 
 
@@ -24,7 +23,6 @@ header{
     width: 100%;
     height: 120px;
     background:#D1D4D9;
-    
    
 }
     #head{
@@ -32,6 +30,7 @@ header{
     height: 120px;
     box-shadow: 8px 8px 10px 0 rgba(33, 51, 44, 0.4);
     position: relative;
+    
         
     }
 /* logo-image */
@@ -78,8 +77,8 @@ nav ul li a:hover
 
 scale: 1.05;
 font-weight: bold;
-color: #08b458;
-text-shadow: 1px 0 #181111;
+color: #89a46f;;
+text-shadow: 0.5px 0 #181111;
         
 }
 
@@ -92,7 +91,9 @@ text-shadow: 1px 0 #181111;
     width: 100%;
     background: url('../images/Freepick\ 2.jpg') no-repeat center center;
     display: flex;
+    box-shadow: 8px 8px 10px 0px rgba(4, 12, 9, 0.4);
 }
+
 /*Text on the hero photo*/
 
 #welcome-text {
@@ -143,22 +144,25 @@ text-shadow: 1px 0 #181111;
 /* About company section intro*/
 
 #rows{
-    margin-top: 10px;
-    display: flex;
-    justify-content: space-between;
+    width:100%;
+    height: 530px;
+    text-align: center;
     box-sizing: border-box;
+    box-shadow: 8px 8px 10px 0 rgba(33, 51, 44, 0.4);
 }
 
 .description{
    
-    flex-basis: 60% 40%;
     margin-bottom: 2%;
     padding: 20px 13px;
+    width: 1000px;
     box-sizing: border-box;
+    position: absolute;
     }
+    
    #about-company h2{
     font-size: 40px;
-    width: 80%;
+    width: 100%;
     padding-top: 40px;
     margin: auto;
     align-items: center;
@@ -179,20 +183,209 @@ text-shadow: 1px 0 #181111;
 
 /*About us section text*/
    #owner-image {
-    padding-top:10px;
-    padding-bottom: 20px;
-    overflow: hidden;
-    height: 100%;
+    padding-left:1070px;
+    padding-top: 30px;
     }
     #owner-image img {      
-    max-width: 95%;
-    max-height: 100%;
-    padding-top: 15px;
+   
     border-radius: 30%;
-    box-shadow: 0px 20px 5px rgb(0 0 0 / 0.2);
+    box-shadow: 0px 10px 5px rgb(0 0 0 / 0.2);
     }
+/*Photovoltaic page*/
 
-/* images-gallery */
+/* Section one - What is photovoltaic section*/
+#whatIs{
+    
+    width:100%;
+    height: 530px;
+    text-align: center;
+    box-sizing: border-box;
+    background: linear-gradient( #fffefe,#c5e3da);
+    box-shadow: 8px 8px 10px 0 rgba(33, 51, 44, 0.4);
+}
+
+#whatIs #whatIs_text{
+    width: 50%;
+    height: 400px;
+    box-sizing: border-box;
+    font-size: 30px;
+    color: #2c2222;
+    position: absolute;
+    font-size: 20px;
+    text-align: justify;
+    margin: auto;
+    vertical-align: middle; 
+    padding: 20px 10px 10px 40px;
+    
+   }
+
+ #whatIs h1{
+    font-size: 40px;
+    width: 100%;
+    padding-top: 30px;
+    margin: auto;
+    align-items: center;
+    padding-bottom: 20px;
+    text-align: center;
+    font-family: 'Caveat', cursive;
+    color: rgba(11, 11, 11, 0.7);
+    
+}
+
+#photo_one{
+    padding-right: 2%;
+    width: 50%;
+    float: right;
+    height: 330px;
+    padding-top: 30px;
+}
+
+#photo_one img{
+    box-shadow: 8px 8px 10px 0px rgba(4, 12, 9, 0.4);
+
+}
+
+/* Section two - Why it's worth to install*/
+
+#Benefits{
+    width:100%;
+    height: 1350px;
+    font-weight: bold;
+    box-sizing: border-box;
+    position: relative;
+    background: linear-gradient(#c5e3da,#cacccb,);
+    box-shadow: 8px 8px 10px 0 rgba(33, 51, 44, 0.4);
+    
+}
+
+#Benefits h1{
+    font-size: 40px;
+    width: 100%;
+    padding-top: 40px;
+    margin: auto;
+    align-items: center;
+    padding-bottom: 30px;
+    text-align: center;
+    font-family: 'Caveat', cursive;
+    color: rgba(11, 11, 11, 0.7);
+   
+}
+#Benefits #reasons_why{
+    padding-left: 700px;
+}
+#reasons_why{
+    width: 50%;
+    height: 400px;
+    box-sizing: border-box;
+    font-size: 20px;
+    font-weight: normal;
+    color: #2c2222;
+    position: absolute;
+    float: right; 
+   
+}
+
+#reasons_why ul {
+    padding-top: 7%;
+    margin: auto;
+    width: 100%;
+    height: 400px;
+    box-sizing: border-box;
+    color: #2c2222;
+    position: absolute;
+    text-align: justify;
+    margin: auto;
+    vertical-align: middle; 
+    padding: 20px 10px 10px 40px;
+}
+
+#reasons_why li{
+    padding: 5px;
+    font-weight: bold;;
+
+}
+
+#photo_two{
+   
+    float: left;
+    width: 50%;
+    padding-top: 90px;
+    padding-left: 40px;
+    margin-left: 30px;
+
+}
+#photo_two img{
+    box-shadow: 8px 8px 10px 0px rgba(4, 12, 9, 0.4);
+}
+
+#photo_three{
+    float: left;
+    width: 50%;
+    padding-top: 110px;
+    padding-left: 40px;
+    margin-left: 30px;
+}
+
+#photo_three img{
+    box-shadow: 8px 8px 10px 0px rgba(4, 12, 9, 0.4);
+}
+/*section three - Costs of Instalations*/
+
+#CostsOfInstalation{
+    width:100%;
+    padding-top: 20px;
+    padding-left: 20px;
+    height: 1000px;
+    text-align: center;
+    box-sizing: border-box;
+    position: relative;
+    background: #89a46f;
+    box-shadow: 8px 8px 10px 0 rgba(33, 51, 44, 0.4);
+}
+
+#CostsOfInstalation h1{
+    font-size: 40px;
+    width: 100%;
+    padding-top: 40px;
+    margin: auto;
+    align-items: center;
+    padding-bottom: 30px;
+    text-align: center;
+    font-family: 'Caveat', cursive;
+    color: rgba(11, 11, 11, 0.7);
+} 
+#costs h3{
+    font-weight: bold;
+    padding-top: 10px;
+    
+} 
+
+#CostsOfInstalation #costs{
+    width: 50%;
+    height: 400px;
+    box-sizing: border-box;
+    font-size: 30px;
+    color: #2c2222;
+    position: absolute;
+    font-size: 20px;
+    text-align: justify;
+    margin: auto;
+    vertical-align: middle; 
+    padding: 20px 0px 10px 50px;
+} 
+#Photo_four{
+    padding-right: 2%;
+    width: 50%;
+    float: right;
+    height: 330px;
+    padding-top: 70px;
+}
+#Photo_four img{
+box-shadow: 8px 8px 10px 0px rgba(4, 12, 9, 0.4);
+}
+
+
+/* Gallery Page */
 
 #images-gallery {
 
@@ -226,7 +419,7 @@ text-shadow: 1px 0 #181111;
 
 .social_network {
     text-align: center;
-    background-color:  rgb(97, 132, 174);
+    background-color:   #459051;
 }
 
 .social_network > li {
@@ -301,13 +494,14 @@ text-shadow: 1px 0 #181111;
     flex-direction: column;
     background-image: url('../images/pixabay\ 4.jpg');
     background-size: cover;
-    
+ 
 }
 
 .contact .content{
 
     max-width: 800px;
     text-align: center;
+
 
 }
 .contact .content h2 {
@@ -330,6 +524,7 @@ text-shadow: 1px 0 #181111;
     background:  rgba(230, 233, 242, 0.4);
     border-radius: 5px;
     margin-top: 30px;
+    box-shadow: 8px 8px 10px 0px rgba(4, 12, 9, 0.4);
     
 
 }
@@ -356,7 +551,7 @@ text-shadow: 1px 0 #181111;
     border: none;
     outline: none;
     resize: none;
-    border-bottom: 2px solid #3a3a3a;
+    box-shadow: 8px 8px 10px 0px rgba(4, 12, 9, 0.4);
 }
 
 .contactForm .inputBox input[type="submit"]{
@@ -366,7 +561,66 @@ text-shadow: 1px 0 #181111;
     color: white;
     border: none;
     cursor: pointer;
-    padding: 12px;}
+    padding: 12px;
+    box-shadow: 8px 8px 10px 0px rgba(4, 12, 9, 0.4);
+}
+
+    /* Contact us section */
+
+    #company_address{
+
+    width:100%;
+    height: 500px;
+    text-align: center;
+    font-weight: bold;
+    box-sizing: border-box;
+    position: relative;
+    background-color: #e1e1e1;
+    box-shadow: 8px 8px 10px 0 rgba(33, 51, 44, 0.4);
+
+    }
+
+    #company_address h2{
+    padding-top: 20px;
+    color: rgba(7, 8, 7, 0.7)
+    }
+
+    #contact_box{
+    
+    width: 50%;
+    height: 400px;
+    box-sizing: border-box;
+    font-size: 30px;
+    color: #2c2222;
+    position: absolute;
+    font-size: 20px;
+   
+    }
+    
+    #contact_box ul{
+    padding-top: 7%;
+    margin: auto;
+    vertical-align: middle;   
+    }
+
+    #contact_box li {
+    padding: 5px;}
+
+    .email-icon{
+        color: #2c2222;
+        padding:10px;
+         
+    }
+
+    #map {
+    padding-right: 3%;
+    width: 50%;
+    float: right;
+    height: 330px;
+    padding-top: 20px;
+    
+}
+
 
 @media screen and (max-width: 1200px){
 /*Text on the hero photo*/
