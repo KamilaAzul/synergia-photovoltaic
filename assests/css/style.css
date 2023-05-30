@@ -13,6 +13,8 @@ body{
     font-family: Montserrat, sans-serif;
     scroll-behavior: smooth;
     margin: auto;
+    justify-content: center;
+    align-items: center;
     max-width: 2000px;}
 
 html{
@@ -143,21 +145,17 @@ text-shadow: 0.5px 0 #181111;
 
 /* About company section intro*/
 
-#rows{
+#about-company{
     width:100%;
-    height: 530px;
-    text-align: center;
-    box-sizing: border-box;
-    box-shadow: 8px 8px 10px 0 rgba(33, 51, 44, 0.4);
+    height: auto;
+    display:block;
 }
 
-.description{
-   
-    margin-bottom: 2%;
-    padding: 20px 13px;
-    width: 1000px;
-    box-sizing: border-box;
-    position: absolute;
+#description{
+
+    width:100%;
+    justify-content: space-between;
+    padding: 10px;
     }
     
    #about-company h2{
@@ -173,18 +171,24 @@ text-shadow: 0.5px 0 #181111;
    
    /*About us section text*/
    #about-text p {
-    padding-left: 80px;
-    padding-top: 5px;
-    font-size: 20px;
+   
+    padding:20px;
+    display: block;
+    font-size: 25px;
     max-width: 98%;
     text-align: justify;
+    margin: 10px 0 40px;
     color: rgba(37, 46, 42, 0.7)
+    
 }
 
 /*About us section text*/
    #owner-image {
-    padding-left:1070px;
-    padding-top: 30px;
+
+    float:left;
+    max-width: 300px;
+    padding: 20px;
+    margin-right: 50px;  
     }
     #owner-image img {      
    
@@ -200,6 +204,7 @@ text-shadow: 0.5px 0 #181111;
     height: 530px;
     text-align: center;
     box-sizing: border-box;
+    position: relative;
     background: linear-gradient( #fffefe,#c5e3da);
     box-shadow: 8px 8px 10px 0 rgba(33, 51, 44, 0.4);
 }
@@ -420,6 +425,7 @@ box-shadow: 8px 8px 10px 0px rgba(4, 12, 9, 0.4);
 .social_network {
     text-align: center;
     background-color:   #459051;
+
 }
 
 .social_network > li {
@@ -465,22 +471,6 @@ box-shadow: 8px 8px 10px 0px rgba(4, 12, 9, 0.4);
     font-size: 40px;
     text-align: center;
 }
-
-/* Anything under 1024px */
-
-@media screen and (max-width:1024px) {
-
-#rows{
-    flex-direction: column;
-
-}
-#images-gallery {
-    --num-cols: 2;
-    --row-height: 200px;
-
-}}
-
-
 
 /* Contact page */
 
@@ -621,24 +611,41 @@ box-shadow: 8px 8px 10px 0px rgba(4, 12, 9, 0.4);
     
 }
 
+/* Anything under 1200px */
+
 
 @media screen and (max-width: 1200px){
 /*Text on the hero photo*/
     #welcome-text {
         padding-top: 30px; 
+        padding: 30px 0px 5px 0px;
         top: 30%;  
         height: 400px; 
-        }
-/* About company section intro*/
-        #about-text p {
-            flex-direction: column;
-            width: 100%;
-        }
+        width: 100%;
+        }}
 
-}
+/* Anything under 1024px */ 
 
+@media screen and (max-width:1024px) {
+
+    #rows{
+        flex-direction: column;
+    
+    }
+    #images-gallery {
+        --num-cols: 2;
+        --row-height: 200px;
+    
+    }}
+
+    
 
 @media (max-width:991px){
+
+    /* home page*/
+
+    /*hearo photo*/
+
     #welcome-text {
     padding-top: 30px; 
     top: 30%;  
@@ -657,8 +664,8 @@ box-shadow: 8px 8px 10px 0px rgba(4, 12, 9, 0.4);
     width:  400px; 
     }
 
-#nav-area{
-    padding:0 30px;
+    #nav-area{
+    
     float: left;
     clear: both;
     letter-spacing: initial;
@@ -666,8 +673,7 @@ box-shadow: 8px 8px 10px 0px rgba(4, 12, 9, 0.4);
 }
     
 nav ul li a  {
-    margin: 0 10px;
-    padding: 0px 20px;
+   
     font-size: 15px;
     background-color: #0caaa5;
 }
@@ -679,18 +685,171 @@ nav ul li a  {
 
  }
 
+ /* About us section*/
+    
+ #about-company{
+    width: 100%;
+ }
+
+   #about-text p {
+   
+    font-size: 20px;
+    text-align: justify;
+}
+
+#owner-image img{
+    width: 200px;
+    height: auto;
+}
+/*Photovoltaic page*/
+
+/* Section one - What is photovoltaic section*/
+#whatIs{
+
+    text-align: center;
+    min-height: 1000px;
+}
+
+#whatIs h1{
+    font-size: 30px;
+    margin: auto;
+    align-items: center;
+}
+
+#whatIs #whatIs_text{
+    width: 100%;
+    font-size: 20px;
+    display: block;
+    position: initial;
+}
+#photo_one{
+    width: 100%;
+    height: auto;
+    padding: unset;
+    display: block;
+}
+
+/* Section two - Why it's worth to install*/
+
+#Benefits{
+    text-align: center;
+    min-height: 1000px;
+    background-color: rgb(101, 185, 216);
+}
+#Benefits h1{
+    font-size: 30px;
+    
+}
+#reasons_why{
+    width: 100%;
+    font-size: 20px;
+    display: block;
+    position: initial;
+    background-color: #459051;
+}
+#reasons_why ul {
+  
+    display: block;
+    position: initial;
+}
+
+    #reasons_why li{
+    padding-left: 2px;
+   }
+
+    #photo_two{
+        width: 100%;
+        height: auto;
+        padding: unset;
+        display: block;
+
+    }
+    #photo_three{
+        width: 100%;
+        height: auto;
+        padding: unset;
+        display: block;}
+/*section three - Costs of Instalations*/
+
+#CostsOfInstalation{
+
+    text-align: center;
+    min-height: 1600px;
+   
+}
+
+    #CostsOfInstalation h1{
+        font-size: 30px;
+    }
+    #CostsOfInstalation #costs{
+
+        width:100%;
+        display: block;
+        font-size: 20px;
+        padding-left: 10px;
+       
+    }
+
+    #Photo_four{
+        width: 100%;
+        display: block;
+        padding-top: 450px;
+
+
+    }
+
+/* Contact page*/
+
 .contact
-    {padding: 50px;
+    {width: 100%;     
 }
 
 .content{
     flex-direction: column;
+    text-align: center;
 }
 
 .contactForm
-{width: 100%;}
-}
+{
+    justify-content: center;
+    align-items: center;}
 
+/* Contact us section */
+
+#company_address{
+
+    min-height: 700px;
+    
+    }
+
+    #contact_box{
+    
+    width: 100%;
+    height: 200px;
+    display: block;
+    position: initial;
+    
+    }
+
+    #company_address h2{
+    padding-top: 20px;
+    padding-bottom: 15px;}
+
+    #contact_box  li {
+        padding: 0px;
+        font-size: 18px;
+    }
+    #contact_box ul {
+        padding: 0;
+    }
+    
+    #map {
+    width: 100%;
+    height: auto;
+    padding: unset;
+    display: block;
+    
+}}
 @media (max-width:500px){
 
     #nav-area{
@@ -704,4 +863,13 @@ nav ul li a  {
     nav ul li a  {
         font-size: 10px;
        }
-    }
+    
+
+    /* contact page*/
+ 
+.content{
+    flex-direction: column;
+}
+
+.contactForm
+{width: 100%;}}
