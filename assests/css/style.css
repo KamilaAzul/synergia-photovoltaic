@@ -204,7 +204,7 @@ text-shadow: 0.5px 0 #181111;
     margin:auto;
     padding-top: 10px;
     text-align: center;
-    background-color: #0caaa5;}
+   }
 .row{
 
     margin-top: 2%;
@@ -253,7 +253,7 @@ text-shadow: 0.5px 0 #181111;
     margin:auto;
     padding-top: 10px;
     text-align: center;
-    background-color: #2e9e57;}
+    }
 
 
 #Benefits h1{
@@ -344,9 +344,8 @@ text-shadow: 0.5px 0 #181111;
 #CostsOfInstalation{
     width:98%; 
     margin:auto;
-    padding-top: 100px;
+    padding-top: 0;
     text-align: center;
-    background: #89a46f;
     box-shadow: 8px 8px 10px 0 rgba(33, 51, 44, 0.4);
 }
 
@@ -415,7 +414,7 @@ text-shadow: 0.5px 0 #181111;
     -8px -8px 12px 0 rgba(245, 245, 245, 0.6);
 }
 
-/* footer */
+/* Footer */
 
 .social_network {
     text-align: center;
@@ -444,6 +443,7 @@ text-shadow: 0.5px 0 #181111;
     color: #2c2222;
 
 }
+/*scroll arrow idea taken from: https://www.youtube.com/watch?v=HP3ZSd3ko5Y*/
 
 #up-arrow #arrow{
     color: rgba(35, 50, 44, 0.7);
@@ -460,7 +460,6 @@ text-shadow: 0.5px 0 #181111;
     z-index: 9;
 }
 
-/*scroll arrow idea taken from: https://www.youtube.com/watch?v=HP3ZSd3ko5Y*/
 #arrow{
 
     font-size: 40px;
@@ -550,7 +549,7 @@ text-shadow: 0.5px 0 #181111;
     box-shadow: 8px 8px 10px 0px rgba(4, 12, 9, 0.4);
 }
 
-    /* Contact us section */
+    /* Addres and map section */
 
     #company_address{
 
@@ -606,7 +605,7 @@ text-shadow: 0.5px 0 #181111;
     
 }
 
-
+/* Anything above 1200px */
 @media screen and (min-width: 1200px){
     #nav-area{
     
@@ -622,6 +621,7 @@ text-shadow: 0.5px 0 #181111;
 
         width: 12%;
 }}
+
 /* Anything under 1200px */
 
 
@@ -657,7 +657,7 @@ text-shadow: 0.5px 0 #181111;
         height: 400px; 
         width: 100%;
         }
-/*Second page- Gallery*/
+/* Gallery page*/
 
     #rows{
         flex-direction: column;
@@ -722,7 +722,7 @@ text-shadow: 0.5px 0 #181111;
     width: 200px;
     height: auto;
 }
-/*Photovoltaic page*/
+/*Gallery page*/
 
 .row{
     flex-direction: column;
@@ -758,6 +758,7 @@ text-shadow: 0.5px 0 #181111;
     padding: 20px;
 
 }
+/* Addres and map styling*/
 
 #company_address{
 
