@@ -294,8 +294,7 @@ text-shadow: 0.5px 0 #181111;
 
 #Benefits2{
     width: 100%; 
-    margin:auto;
-    padding-top: 2px;
+    
     text-align: center;
 }
 
@@ -303,7 +302,7 @@ text-shadow: 0.5px 0 #181111;
 #Benefits2 h1{
     font-size: 40px;
     width: 100%;
-    padding-top: 5px;
+    padding-top: 0;
     margin: auto;
     align-items: center;
     padding-bottom: 30px;
@@ -324,6 +323,7 @@ text-shadow: 0.5px 0 #181111;
 #reasons_why2{
     padding: 10px;
     margin:0 10px;
+    margin-left: 30px;
     text-align: justify;
 }
 #reasons_why2 ul {
@@ -365,7 +365,6 @@ text-shadow: 0.5px 0 #181111;
     margin:10px 10px;
     text-align: justify;
    
-    
 } 
 #CostsOfInstalation h3{
     font-size: 26px;}
@@ -705,7 +704,7 @@ text-shadow: 0.5px 0 #181111;
 
  }
 
- /* About us section*/
+ /* About us section- max-width:991px*/
     
  #about-company{
     width: 100%;
@@ -721,7 +720,7 @@ text-shadow: 0.5px 0 #181111;
     width: 200px;
     height: auto;
 }
-/*Gallery page*/
+/*Gallery page-max-width:991px*/
 
 .row{
     flex-direction: column;
@@ -736,23 +735,84 @@ text-shadow: 0.5px 0 #181111;
     --row-height: 200px;
 
 }
-/* Photovoltaic page*/
+/* Photovoltaic page-max-width:991px*/
 
 .whatIs-col img{
     width: 70%;
+    margin-left: 90px;
     height:290px;
  }
+ .whatIs-col p{
+    font-size: 22px;}
 
 #Benefits img{
     width: 70%;
+    margin-left: 90px;
     height:290px;
  }
+
+ #Benefits h1{
+    font-size: 35px;
+}
+
+#reasons_why{
+    margin-left: 40px;
+}
+
+#reasons_why ul {
+    font-size: 24px;
+}
+#reasons_why li{
+    font-size: 20px;}
+
+#reasons_why p{
+    font-size: 21px; 
+} 
+
+#reasons_why2 ul {
+    font-size: 24px;
+}
+#reasons_why2 li{
+    font-size: 20px;}
+
+#reasons_why2 p{
+    font-size: 20px; 
+} 
+#reasons_why2 ul {
+    font-size: 24px;
+}
+#reasons_why2 li{
+    font-size: 20px;}
+
+#reasons_why2 p{
+    font-size: 20px; 
+} 
+
  #CostsOfInstalation img{
     width: 70%;
     height:290px;
- }}
+    margin-left: 90px;
+ }
+ #CostsOfInstalation h1{
+    font-size: 35px;
+}
+ #CostsOfInstalation h3{
+    font-size: 22px;
+    margin-right:15px;
+}
+#CostsOfInstalation h4{
+    font-size: 21px;
+    margin-right:15px;}
 
-/* Contact page*/
+#CostsOfInstalation li{
+    font-size: 20px;
+    margin-right:10px;
+}
+
+#CostsOfInstalation p{
+    font-size: 18px;
+}}
+/* Contact page-max-width:991px*/
 
 .contact
     {width: 100%;     
@@ -772,7 +832,7 @@ text-shadow: 0.5px 0 #181111;
     padding: 20px;
 
 }
-/* Addres and map styling*/
+/* Addres and map styling-max-width:991px*/
 
 #company_address{
 
@@ -811,36 +871,41 @@ text-shadow: 0.5px 0 #181111;
 
 @media (max-width:600px){
 
-    header{
-        height: 80px;}
+/* Main page*/
 
-    #head{
+header{
+    height: 80px;}
+
+#head{
        
-        height: 80px;}
+    height: 80px;}
 
-      #nav-area  li a  {
-        display: block;
-        padding:0 10px; 
-        font-size: 15px;
-        line-height: 80px;}
+#nav-area  li a  {
+    display: block;
+    padding:0 10px; 
+    font-size: 15px;
+    line-height: 80px;}
 
-        /*Photovoltaic page*/
+/*Photovoltaic page*/
 
 .whatIs-col img{
     width: 80%;
     height:290px;
+    margin-left: 50px;
  }
 
 #Benefits img{
     width: 80%;
     height:290px;
+    margin-left: 50px;
  }
  #CostsOfInstalation img{
     width: 80%;
     height:290px;
+    margin-left: 50px;
  }
 
-    /* contact page*/
+    /* contact page-max-width:600px*/
  
 .content{
     flex-direction: column;
@@ -851,12 +916,95 @@ text-shadow: 0.5px 0 #181111;
 
 @media (max-width:470px){
 
+/*Nav area menu*/
  #nav-area  li a  {
 
  padding:0 8px; 
  font-size: 12px;
        }
     
+/*Photovolatic page*/
+
+    #Benefits img{
+        width: 70%;
+        height:290px;
+        margin-left: 30px;
+     }
+    #whatIs h1{
+       font-size:  28px;
+    }
+    .whatIs-col p{
+        font-size: 21px;
+        margin-left: 20px;
+
+    }
+    
+     #Benefits h1{
+        font-size: 28px;
+    }
+    
+    #reasons_why{
+        margin-left: 40px;
+    }
+    
+    #reasons_why ul {
+        font-size: 24px;
+    }
+    #reasons_why li{
+        font-size: 20px;
+        text-align: left;}
+    
+    #reasons_why p{
+        font-size: 21px; 
+    } 
+    
+    #reasons_why2 ul {
+        font-size: 24px;
+    }
+    #reasons_why2 li{
+        font-size: 20px;
+        text-align: left;}
+    
+    #reasons_why2 p{
+        font-size: 20px; 
+    } 
+    #reasons_why2 ul {
+        font-size: 24px;
+    }
+    #reasons_why2 li{
+        font-size: 20px;}
+    
+    #reasons_why2 p{
+        font-size: 20px; 
+    } 
+    
+     #CostsOfInstalation img{
+        width: 70%;
+        height:290px;
+        margin-left: 40px;
+     }
+     #CostsOfInstalation h1{
+        font-size: 27px;
+        margin: 0 10px;
+    }
+     #CostsOfInstalation h3{
+        font-size: 20px;
+        margin-right:15px;
+    }
+    #CostsOfInstalation h4{
+        font-size: 19px;
+        margin-right:15px;}
+    
+    #CostsOfInstalation li{
+        font-size: 19px;
+        text-align: left;
+        margin-right:13px;
+    }
+    
+    #CostsOfInstalation p{
+        font-size: 18px;
+    }
+
     /* Contact page*/
 
 .contact
