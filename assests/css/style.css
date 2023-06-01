@@ -249,7 +249,7 @@ text-shadow: 0.5px 0 #181111;
 /* Section two - Why it's worth to install*/
 
 #Benefits{
-    width: 98%; 
+    width: 100%; 
     margin:auto;
     padding-top: 10px;
     text-align: center;
@@ -293,11 +293,10 @@ text-shadow: 0.5px 0 #181111;
 /* Section two II- Why it's worth to install*/
 
 #Benefits2{
-    width: 98%; 
+    width: 100%; 
     margin:auto;
     padding-top: 2px;
     text-align: center;
-    box-shadow: 8px 8px 10px 0 rgba(33, 51, 44, 0.4);
 }
 
     
@@ -342,11 +341,11 @@ text-shadow: 0.5px 0 #181111;
 
 
 #CostsOfInstalation{
-    width:98%; 
+    width:100%; 
     margin:auto;
     padding-top: 0;
     text-align: center;
-    box-shadow: 8px 8px 10px 0 rgba(33, 51, 44, 0.4);
+    
 }
 
 #CostsOfInstalation h1{
