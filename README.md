@@ -1,5 +1,8 @@
-Name: Synergia Photovoltaic
-The page Synergia Photovoltaic is made for people who are interested in installing photovoltaic panels, which are an ecological source of energy.
+# **_Synergia Photovoltaic_**
+Synergia is a family-run business,specializing in installing photovoltaic panels, which are an ecological source of energy.
+
+
+
 It explains what is Photovoltaic installation, what are the benefits of having one, and what influences the final price of this kind of purchase. It shows the offer from the company, the gallery with examples of already made installations, and on the web page, there are contact details, the contact form, and the map.
 Existing Features
 Navigation Bar
@@ -45,33 +48,10 @@ It would be good to add an open dropdown menu in the Home button that would lead
 Responsivnes is not working on all pages: The codes added by me didn't worked properly
 
 
-Used 
-
-Code intitute; Loe running web page;
-
-https://www.w3schools.com/
-
-Link how to add a logo and style it
-https://www.youtube.com/watch?v=Jkp103YhW7A
-
-How to organize galleries
-https://www.youtube.com/watch?v=rnhoY5Cdmy0&t=580s
-
-Gallery photos: They are original photos from the owner of a Synergia company
-
-Main page and contact photos are taken from:
-Feepeak and Pixabay
-
-# **_Funny Dogs Memory Game_**
 
 
-The Funny Dogs Memory Game is a simple matching cards game in which all the cards are flipped backside on a surface. 
-There are 8 cards that have the same images, but each card is placed randomly, and the user's mission is to find them. It is possible to flip up with only two cards over each turn. 
-The game doesn't have a time limit to find the pairs of cards.
 
-Due to the low level of difficulty, the game is intended for younger users,to entertain and at the same time improve memory; however adults can also play it. 
 
-Throughout the creation of this game, I was using three HTML ( index.html, welcome.html, instruction.html) two CSS files (game.css, style.css), and one java.js file.
 
 
 # Contents
@@ -83,9 +63,10 @@ Throughout the creation of this game, I was using three HTML ( index.html, welco
     * [Colour Scheme](<#colour-scheme>)
 
 * [**Features**](<#features>)
-   * [Welcome Page](<#welcome-page>)
-   * [Instruction Page](<#instruction-page>)
-   * [Memory Game Page](<#memory-game-page>)
+   * [Main Page](<#main-page>)
+   * [Photovolatic Instalation Page](<#Photovolatic- Instalation -page>)
+   * [Gallery Page](<#Gallery-page>)
+   * [Contact Page](<#Contact-page>)
 * [**Technologies Used**](<#technologies-used>)
 * [**Testing**](<#testing>)
 * [**Deployment**](<#deployment>)
@@ -165,7 +146,6 @@ The Synergy site is projected to be welcoming and easy to use. It contains a nav
 ## Technologies Used
 * `HTML` provides the content and structure for the website.
 * `CSS` provides the styling.
-* `JavaScript` to create dynamically updating content.
 * [Gitpod](https://www.gitpod.io/#get-started) - used to deploy the website.
 * [Github](https://github.com/) - used to host and edit the website.
 
@@ -188,23 +168,25 @@ The site was deployed to GitHub page.
 ## Credits
 ### Content
 
-* The font came from [Google Fonts](https://fonts.google.com/).
-* The code for organizing the Memory Game Page and styling was inspired by an example on  [YouTube tutorial](https://www.youtube.com/watch?v=6ohVH0hQlD8).
-* The Javascript code for the Game Page was inspired by an example on  [YouTube tutorial](https://marina-ferreira.github.io/tutorials/js/memory-game/).
-* The Javascript code for *the shuffle cards function* of the Memory Game was inspired by an example on  [YouTube tutorial](https://www.youtube.com/watch?v=1G6MwIy-7Yc).
+* The map is embedded from [Google Maps](https://www.google.com/maps).
+* The icons came from [Font Awesome](https://fontawesome.com/).
+* How to organize galleries [YouTube tutorial](https://www.youtube.com/watch?v=rnhoY5Cdmy0&t=580s).
+* Link how to add a logo and style it [YouTube tutorial](https://www.youtube.com/watch?v=Jkp103YhW7A).
 * The inspiration for the Readme file came from this repository on [GitHub](https://github.com/EwanColquhoun/wawaswoods/blob/master/README.md).
 
 
 ### Media
 * The photos for the front cards came from [Creative Fabrica](https://www.creativefabrica.com/)
-* The photos for the back cards and background comes from [Feepick](https://pl.freepik.com/)
+* The photo on the Main page comes from [Feepick](https://pl.freepik.com/)
+* The photo on the Contact Us page comes from [Feepick](https://pl.freepik.com/)
+* The photo in the Gallery Page are the original photos from the owner of a Synergia company.
 
 [Back to top](<#contents>)
 
 ## Acknowledgements
 
-The website was completed as a Portfolio Project 2 JavaScript Essentials Project made for the Full Stack Software Developer (e-Commerce) Diploma at the [Code Institute](https://codeinstitute.net/). 
+The website was completed as a Portfolio Project 1 made for the Full Stack Software Developer (e-Commerce) Diploma at the [Code Institute](https://codeinstitute.net/). 
 
-I would like to thank my mentor [Precious Ijege](https://www.linkedin.com/in/precious-ijege-908a00168/), the Slack community, and all at the Code Institute for their help and support.
+I would like to thank all at the Code Institute for their help and support.
 
 [Back to top](<#contents>)
