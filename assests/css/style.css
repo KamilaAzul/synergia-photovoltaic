@@ -71,17 +71,15 @@ nav ul li a {
     text-decoration: none;
     font-size: 25px;
     line-height: 110px;
-    transition: scale 0.3 ease;
 }
     
 nav ul li a:hover
 {
 
-scale: 1.05;
+transform: scale(1.09);
 font-weight: bold;
 color: #89a46f;;
-text-shadow: 0.5px 0 #181111;
-        
+text-shadow: 0.5px 0 #181111;     
 }
 
 /* hero image */
@@ -1039,7 +1037,7 @@ width: 50%;
 font-size: 15px;
 height:40px;}}
 
-@media (max-width:370px){
+@media (max-width:390px){
 
 
 #nav-area  li a  {
@@ -1047,11 +1045,45 @@ height:40px;}}
 font-size: 10px;}
 
 /*Photovoltaic page*/
+#whatIs h1{
+font-size:  23px;
+ }
+#Benefits h1{
+font-size: 23px;
+}
+#CostsOfInstalation h1{
+font-size: 23px;}
+
+#reasons_why h3{
+    font-size: 18px; 
+} 
+#reasons_why2 h3 {
+font-size: 18px;
+}
 
 .whatIs-col img{
-    width: 75%;
-    height:200px;
+width: 75%;
+height:200px;
  }
+ #CostsOfInstalation h3{
+font-size: 17px;
+}
+#CostsOfInstalation h4{
+font-size: 18px;}
+#CostsOfInstalation li{
+font-size: 16px;}
+   
+ .whatIs-col p{
+font-size: 15px;}
+#reasons_why p{
+font-size: 15px; 
+} 
+#reasons_why2 p{
+font-size: 15px; 
+} 
+#CostsOfInstalation p{
+font-size: 15px;
+}
 
 #Benefits img{
     width: 75%;
