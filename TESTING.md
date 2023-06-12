@@ -1,20 +1,30 @@
 The HTML validator results for each page are below:
 
-* Welome Page
-* Instruction Page
-* Memory Game Page
+The code was checked on W3C html Validator and the W3C CSS Validator. 
+There were found some small errors on all pages. After fixing them there were no more bugs found.
+
+# W3C html Validator
+
+* Home page
+
+![W3C Validator test result](assests/Testing/checker%20html%20home%20page.png)
+
+* Photovoltaic instalations page
+
+![W3C Validator test result](assests/Testing/Validation%20photovoltaic%20page.png)
+
+* Gallery page
+
+![W3C Validator test result](assests/Testing/Validation%20gallery%20page.png)
+
+* Contact page
+
+![W3C Validator test result](assests/Testing/Validation%20contact%20page.png)
 
 
-On all pages same error was found. It's not affecting the operation of the site
+The CSS validator results are below:
 
-![Alt text](images/Validation%20html.png)
-
-
-[Back to top](<#contents>)
-
-The CSS validator didn't detect any errors.
-
-![Alt text](images/validation%20css.png)
+![CSS Validator test result]
 
 ## Responsiveness Test
 
