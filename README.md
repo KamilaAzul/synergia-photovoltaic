@@ -1,6 +1,7 @@
 # **_Synergia Photovoltaic_**
 Synergia is a family-run business,specializing in installing photovoltaic panels, which are an ecological source of energy.
 
+![Alt text](assests/read_me_file_photos/Synergia.png)
 
 # Contents
 
@@ -49,9 +50,7 @@ The home page is the default loading page, gallery, about us and contact pages a
  * ### Typography
       * The fonts chosen were 'Ribeye'.
  * ### Colour Scheme
-      The color scheme chosen for the project is warm colors in shades of brown, beige, and cream.
-
-   ![Alt text](images/Palette.png) 
+      * The colors on the page are subdued. White background, green footer, and gray navigation bar.
 
 [Back to top](<#contents>)
 
@@ -67,25 +66,26 @@ The Synergy site is designed to be easy to navigate and to encourage the user to
 
 ## Main Page
 
-  * ### Navigation Menu
+* ### Navigation Menu
 
-    * At the top of all the pages the user can find a fully responsive navigation menu, which had links to all the pages of the site to enable ease of navigation on the page.
-    * The logo is clickable with a link back to the home page.
+* At the top of all the pages the user can find a fully responsive navigation menu, which had links to all the pages of the site to enable ease of navigation on the page.
+* The logo is clickable with a link back to the home page.
 
 ![Alt text](assests/read_me_file_photos/Navigation%20bar.png)
 [Back to top](<#contents>)
 
-  * ### About-Us
-    * The About Us section tells the user more about the company.
-    * The picture of the owner and getting to know more about him can bring confidence that the project will be taken care of by a small
+* ### About-Us
+ * The About Us section tells the user more about the company.
+ * The picture of the owner and getting to know more about him can bring confidence that the project will be taken care of by a small
+ 
 ![Alt text](assests/read_me_file_photos/Main%20page,%20about%20us.png)
 
 [Back to top](<#contents>)
 
- * ## Photovolatic Instalation Page
+* ## Photovolatic Instalation Page
 
 It is divided into three sections:
-*What is a photovoltaic installation? (giving a description of what photovoltaic installation is).
+* What is a photovoltaic installation? (giving a description of what photovoltaic installation is).
 
 ![Alt text](assests/read_me_file_photos/What%20is%20Photovoltaic.png)
 [Back to top](<#contents>)
@@ -101,8 +101,9 @@ It is divided into three sections:
 [Back to top](<#contents>)
 
 * ## Gallery page
-The Gallery page includes photos of already-made installations.
-This section is valuable to the user as it can help them make their decisions about buying the installation and proves the reliability of the company.
+
+* The Gallery page includes photos of already-made installations.
+* This section is valuable to the user as it can help them make their decisions about buying the installation and proves the reliability of the company.
 
 ![Alt text](assests/read_me_file_photos/Gallery.png)
 [Back to top](<#contents>)
