@@ -567,13 +567,13 @@ text-shadow: 0.5px 0 #181111;
     #contact_box{
     
     width: 50%;
-    height: 400px;
+    height: 200px;
     box-sizing: border-box;
     font-size: 30px;
     color: #2c2222;
     position: absolute;
     font-size: 20px;
-   
+    padding-top:30px;
     }
     
     #contact_box ul{
@@ -597,7 +597,7 @@ text-shadow: 0.5px 0 #181111;
     width: 50%;
     float: right;
     height: 330px;
-    padding-top: 20px;
+    padding-top: 10px;
     
 }
 
