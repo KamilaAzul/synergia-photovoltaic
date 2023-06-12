@@ -112,6 +112,7 @@ text-shadow: 0.5px 0 #181111;
     right:5%;
     text-align: center;
     display: inline;
+    flex-direction: column;
     background-color: rgba(20, 28, 54, 0.4);}
 
     #welcome-text h1{
@@ -881,6 +882,11 @@ header{
     padding:0 10px; 
     font-size: 15px;
     line-height: 80px;}
+
+#welcome-text{
+margin-top: 5px;
+background-color: #459051; 
+}
 
 /*Photovoltaic page*/
 
