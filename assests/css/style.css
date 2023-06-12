@@ -414,9 +414,13 @@ text-shadow: 0.5px 0 #181111;
 
 /* Footer */
 
-.social_network {
+/* footer */
+
+#social{
     text-align: center;
     background-color:   #459051;
+    padding-bottom: 30px;
+
 
 }
 
@@ -432,14 +436,13 @@ text-shadow: 0.5px 0 #181111;
     color: #2c2222;
     }
 
-.social_network h3{
+#social h3{
 
     padding-bottom: 30px;
     font-size: 30px;
     text-align: center;
     font-family: 'Caveat', cursive;
     color: #2c2222;
-
 }
 /*scroll arrow idea taken from: https://www.youtube.com/watch?v=HP3ZSd3ko5Y*/
 
