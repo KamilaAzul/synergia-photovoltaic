@@ -294,7 +294,6 @@ text-shadow: 0.5px 0 #181111;
 
 #Benefits2{
     width: 100%; 
-    
     text-align: center;
 }
 
@@ -326,14 +325,11 @@ text-shadow: 0.5px 0 #181111;
     margin-left: 30px;
     text-align: justify;
 }
-#reasons_why2 ul {
-    font-size: 26px;
-}
-#reasons_why2 li{
+#reasons_why2 h3{
     font-size: 25px;}
 
 #reasons_why2 p{
-    font-size: 24px;
+    font-size: 23px;
     padding-right: 30px;
 }
 
