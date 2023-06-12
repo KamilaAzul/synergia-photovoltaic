@@ -30,6 +30,13 @@ The CSS validator results are below:
 
 * The responsive design tests were carried out manually with [Responsive Design Checker](https://www.responsivedesignchecker.com/).
 
-## Known Bugs
+# W3C CSS Validator
 
- ### Unresolved
+* There is one error and four warnings that do not affect the operation of the code.
+Despite trying, I was unable to resolve the error.
+
+![Alt text](assests/Testing/CSS%20validator.png)
+
+## Responsiveness Test
+
+* The responsive design tests was made on [Responsive Design Checker](https://www.responsivedesignchecker.com/).
