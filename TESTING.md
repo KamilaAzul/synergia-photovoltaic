@@ -40,8 +40,8 @@ Despite trying, I was unable to resolve the error.
 The site was also tested using [Google Lighthouse](https://developers.google.com/web/tools/lighthouse) in Chrome Developer Tools.
 
 This testing showed up that there  must be made some changes in order to improve:
-* Performance (85%)- Is checking how the page performs whilst loading.
-* Accessibility(86%) - Is checking if the site is accessible for all users.
+* Performance (77%)- Is checking how the page performs whilst loading.
+* Accessibility(95%) - Is checking if the site is accessible for all users.
 * Best Practices (83%)- The site conforms to industry best practices.
 * SEO (100%)- Search engine optimization.
 

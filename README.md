@@ -1,5 +1,5 @@
 # **_Synergia Photovoltaic_**
-Synergia is a family-run business,specializing in installing photovoltaic panels, which are an ecological source of energy.
+The Synergia is a family-run business,specializing in installing photovoltaic panels, which are an ecological source of energy.
 
 ![Alt text](assests/read_me_file_photos/Synergia.png)
 
@@ -48,7 +48,7 @@ The home page is the default loading page, gallery, about us and contact pages a
 
 ## Design-choices
  * ### Typography
-      * The fonts chosen were 'Ribeye'.
+      * The fonts chosen were 'Caveat', 'Erica One family' and 'Montserrat'.
  * ### Colour Scheme
       * The colors on the page are subdued. White background, green footer, and gray navigation bar.
 
@@ -57,12 +57,12 @@ The home page is the default loading page, gallery, about us and contact pages a
 ## Existing Features  
 # Features
 
-The Synergy site is projected to be welcoming and easy to use. It contains a navigation bar and a contact form. The aim is to invite the user to get to know the page.
+The Synergia site is projected to be welcoming and easy to use. It contains a navigation bar and a contact form. The aim is to invite the user to get to know the page.
 
 ## Existing Features  
 # Features
 
-The Synergy site is designed to be easy to navigate and to encourage the user to explore more information about the company. 
+The Synergia site is designed to be easy to navigate and to encourage the user to explore more information about the company. 
 
 ## Main Page
 
