@@ -78,7 +78,7 @@ nav ul li a:hover
 
 transform: scale(1.09);
 font-weight: bold;
-color: #89a46f;;
+color: #428404;;
 text-shadow: 0.5px 0 #181111;     
 }
 
@@ -101,10 +101,12 @@ text-shadow: 0.5px 0 #181111;
     font-size: 100%;
     font-family: Montserrat, sans-serif;
     text-transform: uppercase;
-    letter-spacing: 10px;
+    letter-spacing: 8px;
     position: absolute;
     width: 90%;
     color:#f0f0f0;
+    text-shadow: 2px 2px #050505;
+    border-radius: 10px;
     height: 250px;
     padding-top: 20px;
     top: 20%;
@@ -113,7 +115,7 @@ text-shadow: 0.5px 0 #181111;
     text-align: center;
     display: inline;
     flex-direction: column;
-    background-color: rgba(20, 28, 54, 0.4);}
+    background-color: rgba(20, 28, 54, 0.6);}
 
     #welcome-text h1{
         font-size: 35px;
@@ -122,14 +124,15 @@ text-shadow: 0.5px 0 #181111;
     #welcome-text p{
         margin: 10px 0 40px;
         font-size: 20px;
+        font-weight: 600;
 
     }
     /*Contact button on the hero photo*/
     .buton{
         display: inline-block;
         text-decoration: none;
-        color:rgb(22, 204, 162);
-        border: 1px solid #fff;
+        color:rgb(13, 186, 45);
+        border: 2px solid #fff;
         padding: 15px 30px;
         font-size: 18px;
         font-weight: 800;
@@ -138,7 +141,7 @@ text-shadow: 0.5px 0 #181111;
     }
 
     .buton:hover{
-        background: rgba(231, 215, 39, 0.2) ;
+        background: rgba(246, 245, 239, 0.4) ;
         transition: 1s;
     }
 
@@ -159,6 +162,7 @@ text-shadow: 0.5px 0 #181111;
     
    #about-company h2{
     font-size: 40px;
+    font-family: 'Caveat', cursive;
     width: 100%;
     padding-top: 40px;
     margin: auto;
@@ -489,9 +493,11 @@ text-shadow: 0.5px 0 #181111;
     font-weight: 500;
     color:white;
     text-align: center;
+    text-shadow: 2px 1px #050505;
 }
 .contact .content p{
     font-size: 20px;
+    text-shadow: 2px 1px #050505;
     font-weight: 500;
     color:white;
 } 
@@ -500,7 +506,7 @@ text-shadow: 0.5px 0 #181111;
 {
     width: 40%;
     padding: 40px;
-    background:  rgba(230, 233, 242, 0.4);
+    background:  rgba(195, 201, 220, 0.6);
     border-radius: 5px;
     margin-top: 30px;
     box-shadow: 8px 8px 10px 0px rgba(4, 12, 9, 0.4);
@@ -509,8 +515,14 @@ text-shadow: 0.5px 0 #181111;
 }
 .contactForm h2{
     
-    font-size: 30px;
-    font-weight: 500;
+    font-size: 25px;
+    font-weight: 600;
+    text-align: center;
+}
+.contactForm span{
+    
+    font-size: 20px;
+    font-weight: 700;
     text-align: center;
 }
 .contactForm .inputBox
@@ -536,7 +548,9 @@ text-shadow: 0.5px 0 #181111;
 .contactForm .inputBox input[type="submit"]{
 
     width: 30%;
+    font-weight: 600;
     background: rgb(66, 216, 186);
+    text-shadow: 1px 1px #050505;
     color: white;
     border: none;
     cursor: pointer;
@@ -549,7 +563,7 @@ text-shadow: 0.5px 0 #181111;
     #company_address{
 
     width:100%;
-    height: 500px;
+    height: 550px;
     text-align: center;
     font-weight: bold;
     box-sizing: border-box;
@@ -559,10 +573,13 @@ text-shadow: 0.5px 0 #181111;
     }
 
     #company_address h2{
-    padding-top: 20px;
-    color: rgba(7, 8, 7, 0.7)
+    padding-top: 50px;
+    font-size: 40px;
+    color: rgba(7, 8, 7, 0.8);
+    font-family: 'Caveat', cursive;
     }
 
+  
     #contact_box{
     
     width: 50%;
@@ -595,12 +612,11 @@ text-shadow: 0.5px 0 #181111;
     padding-right: 3%;
     width: 50%;
     float: right;
-    height: 330px;
-    padding-top: 10px;
+    height: 300px;
+    padding-top: 20px;
     
 }
 
-/* Anything above 1200px */
 @media screen and (min-width: 1200px){
     #nav-area{
     
@@ -616,7 +632,15 @@ text-shadow: 0.5px 0 #181111;
 
         width: 12%;
 }}
-
+/*Text on the hero photo*/
+#welcome-text {
+    padding: 30px; 
+    padding-top: 75px;
+    top: 10%;  
+    height: 400px;
+    width: 90%;
+    display: block;
+    }
 /* Anything under 1200px */
 
 
@@ -643,16 +667,18 @@ text-shadow: 0.5px 0 #181111;
 
     width: 12%;
 }
+/*Text on the hero photo*/
+#welcome-text {
+    padding: 20px; 
+    top: 10%;  
+    height: 400px;
+    width: 90%;
+    display: block;
+    }
 
 /*Text on the hero photo*/
-    #welcome-text {
-        padding-top: 30px; 
-        padding: 30px 0px 5px 0px;
-        top: 30%;  
-        height: 400px; 
-        width: 100%;
-        }
-/* Gallery page*/
+  
+/*Second page- Gallery*/
 
     #rows{
         flex-direction: column;
@@ -669,12 +695,19 @@ text-shadow: 0.5px 0 #181111;
 
     /* home page*/
 
-    /*hearo photo*/
+/* hero image */
+
+#hero-image{
+    height: 550px;
+}
 
     #welcome-text {
-    padding-top: 30px; 
-    top: 30%;  
-    height: 400px; 
+    padding: 20px;
+    padding-top: 40px; 
+    top: 15%;  
+    height: 300px;
+    width: 90%;
+    display: block;
     }
     #welcome-text h1{
     font-size: 25px;
@@ -686,7 +719,8 @@ text-shadow: 0.5px 0 #181111;
 
     .buton{
     font-size: 14px;
-    width:  400px; 
+    width:  400px;
+    letter-spacing: 5px;
     }
 
     #nav-area  li a  {
@@ -701,7 +735,7 @@ text-shadow: 0.5px 0 #181111;
 
  }
 
- /* About us section- max-width:991px*/
+ /* About us section- max-width:991px */
     
  #about-company{
     width: 100%;
@@ -717,7 +751,7 @@ text-shadow: 0.5px 0 #181111;
     width: 200px;
     height: auto;
 }
-/*Gallery page-max-width:991px*/
+/*Photovoltaic page*/
 
 .row{
     flex-direction: column;
@@ -732,84 +766,8 @@ text-shadow: 0.5px 0 #181111;
     --row-height: 200px;
 
 }
-/* Photovoltaic page-max-width:991px*/
 
-.whatIs-col img{
-    width: 70%;
-    margin-left: 90px;
-    height:290px;
- }
- .whatIs-col p{
-    font-size: 22px;}
-
-#Benefits img{
-    width: 70%;
-    margin-left: 90px;
-    height:290px;
- }
-
- #Benefits h1{
-    font-size: 35px;
-}
-
-#reasons_why{
-    margin-left: 40px;
-}
-
-#reasons_why ul {
-    font-size: 24px;
-}
-#reasons_why li{
-    font-size: 20px;}
-
-#reasons_why p{
-    font-size: 21px; 
-} 
-
-#reasons_why2 ul {
-    font-size: 24px;
-}
-#reasons_why2 li{
-    font-size: 20px;}
-
-#reasons_why2 p{
-    font-size: 20px; 
-} 
-#reasons_why2 ul {
-    font-size: 24px;
-}
-#reasons_why2 li{
-    font-size: 20px;}
-
-#reasons_why2 p{
-    font-size: 20px; 
-} 
-
- #CostsOfInstalation img{
-    width: 70%;
-    height:290px;
-    margin-left: 90px;
- }
- #CostsOfInstalation h1{
-    font-size: 35px;
-}
- #CostsOfInstalation h3{
-    font-size: 22px;
-    margin-right:15px;
-}
-#CostsOfInstalation h4{
-    font-size: 21px;
-    margin-right:15px;}
-
-#CostsOfInstalation li{
-    font-size: 20px;
-    margin-right:10px;
-}
-
-#CostsOfInstalation p{
-    font-size: 18px;
-}}
-/* Contact page-max-width:991px*/
+/* Contact page -max-width:991px*/
 
 .contact
     {width: 100%;     
@@ -829,7 +787,6 @@ text-shadow: 0.5px 0 #181111;
     padding: 20px;
 
 }
-/* Addres and map styling-max-width:991px*/
 
 #company_address{
 
@@ -866,49 +823,84 @@ text-shadow: 0.5px 0 #181111;
     
 }
 
+.whatIs-col img{
+    width: 70%;
+    height:290px;
+ }
+
+#Benefits img{
+    width: 70%;
+    justify-content: center;
+    height:290px;
+ }
+ #CostsOfInstalation img{
+    width: 70%;
+    height:290px;
+ }}
+
 @media (max-width:600px){
 
-/* Main page*/
+    header{
+        height: 80px;}
 
-header{
-    height: 80px;}
-
-#head{
+    #head{
        
-    height: 80px;}
+        height: 80px;}
 
-#nav-area  li a  {
-    display: block;
-    padding:0 10px; 
-    font-size: 15px;
-    line-height: 80px;}
+      #nav-area  li a  {
+        display: block;
+        padding:0 10px; 
+        font-size: 15px;
+        line-height: 80px;}
+/* hero image */
 
-#welcome-text{
-margin-top: 5px;
-background-color: #459051; 
+#hero-image{
+    height: 500px;
 }
-
-/*Photovoltaic page*/
+/*Text on the hero photo*/
+#welcome-text {
+    padding: 20px;
+    padding-top: 40px;
+    letter-spacing: 5px; 
+    top: 10%;  
+    height: 350px;
+    width: 90%;
+    text-align: center;
+    display: block;}
+    
+#welcome-text h1{
+    font-size: 25px;
+    letter-spacing: 3px;
+    }
+#welcome-text p{
+    font-size: 15px;
+        }
+#welcome-text .buton{
+    font-size: 10px;
+    width: 300px;
+            }
+ /*Photovoltaic page*/
 
 .whatIs-col img{
     width: 80%;
     height:290px;
-    margin-left: 50px;
  }
 
 #Benefits img{
     width: 80%;
     height:290px;
-    margin-left: 50px;
  }
  #CostsOfInstalation img{
     width: 80%;
     height:290px;
-    margin-left: 50px;
  }
 
-    /* contact page-max-width:600px*/
- 
+    /* contact page*/
+.contact
+{
+min-height: 750px;
+      
+ }
 .content{
     flex-direction: column;
 }
@@ -918,105 +910,51 @@ background-color: #459051;
 
 @media (max-width:470px){
 
-/*Nav area menu*/
  #nav-area  li a  {
 
  padding:0 8px; 
- font-size: 12px;
+ font-size: 11px;
        }
-    
-/*Photovolatic page*/
 
-    #Benefits img{
-        width: 70%;
-        height:290px;
-        margin-left: 30px;
-     }
-    #whatIs h1{
-       font-size:  28px;
-    }
-    .whatIs-col p{
-        font-size: 21px;
-        margin-left: 20px;
+  #hero-image {
+   height: 440px;
+   display: block;}
 
-    }
-    
-     #Benefits h1{
-        font-size: 28px;
-    }
-    
-    #reasons_why{
-        margin-left: 40px;
-    }
-    
-    #reasons_why ul {
-        font-size: 24px;
-    }
-    #reasons_why li{
+    #welcome-text {
+    padding-top: 40px;
+    height: 350px;
+    width: 90%;
+    text-align: center;
+    display: block;
+    letter-spacing: 5px;}
+        
+    #welcome-text h1{
         font-size: 20px;
-        text-align: left;}
-    
-    #reasons_why p{
-        font-size: 21px; 
-    } 
-    
-    #reasons_why2 ul {
-        font-size: 24px;
-    }
-    #reasons_why2 li{
-        font-size: 20px;
-        text-align: left;}
-    
-    #reasons_why2 p{
-        font-size: 20px; 
-    } 
-    #reasons_why2 ul {
-        font-size: 24px;
-    }
-    #reasons_why2 li{
-        font-size: 20px;}
-    
-    #reasons_why2 p{
-        font-size: 20px; 
-    } 
-    
-     #CostsOfInstalation img{
-        width: 70%;
-        height:290px;
-        margin-left: 40px;
-     }
-     #CostsOfInstalation h1{
-        font-size: 27px;
-        margin: 0 10px;
-    }
-     #CostsOfInstalation h3{
-        font-size: 20px;
-        margin-right:15px;
-    }
-    #CostsOfInstalation h4{
-        font-size: 19px;
-        margin-right:15px;}
-    
-    #CostsOfInstalation li{
-        font-size: 19px;
-        text-align: left;
-        margin-right:13px;
-    }
-    
-    #CostsOfInstalation p{
-        font-size: 18px;
-    }
-
+        }
+    #welcome-text p{
+        font-size: 12px;
+            }
+    #welcome-text .buton{
+        font-size: 10px;
+        width: 250px;
+                }
     /* Contact page*/
 
 .contact
-{width: 100%; 
+{width: 100%;
+min-height: 650px;
 padding: 1px 50px;    
+}
+
+.contactForm
+{
+margin-top: 20px;   
 }
 
 .content{
 flex-direction: column;
 text-align: center;
+
 
 }
 .contact .content h2 {
@@ -1043,53 +981,23 @@ width: 50%;
 font-size: 15px;
 height:40px;}}
 
-@media (max-width:390px){
+@media (max-width:370px){
 
 
 #nav-area  li a  {
 
 font-size: 10px;}
 
-/*Photovoltaic page*/
-#whatIs h1{
-font-size:  23px;
- }
-#Benefits h1{
-font-size: 23px;
-}
-#CostsOfInstalation h1{
-font-size: 23px;}
+#welcome-text .buton{
+    font-size: 10px;
+    width: 200px;
 
-#reasons_why h3{
-    font-size: 18px; 
-} 
-#reasons_why2 h3 {
-font-size: 18px;
-}
+/*Photovoltaic page*/
 
 .whatIs-col img{
-width: 75%;
-height:200px;
+    width: 75%;
+    height:200px;
  }
- #CostsOfInstalation h3{
-font-size: 17px;
-}
-#CostsOfInstalation h4{
-font-size: 18px;}
-#CostsOfInstalation li{
-font-size: 16px;}
-   
- .whatIs-col p{
-font-size: 15px;}
-#reasons_why p{
-font-size: 15px; 
-} 
-#reasons_why2 p{
-font-size: 15px; 
-} 
-#CostsOfInstalation p{
-font-size: 15px;
-}
 
 #Benefits img{
     width: 75%;
@@ -1098,4 +1006,4 @@ font-size: 15px;
  #CostsOfInstalation img{
     width: 75%;
     height:200px;
- }}     
+ }}     }
